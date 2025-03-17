@@ -1,0 +1,8 @@
+node_modules/
+
+#Text Files
+*.txt
+
+/dist
+
+/src/data
