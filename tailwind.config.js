@@ -9,11 +9,11 @@
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-purple-pink': "linear-gradient(to right, #7068DE, #D85AB9)",
+        'primary-gradient': "linear-gradient(to right, #7068DE, #D85AB9)",
       },
       colors: {
-        gold: "#B88E2F",
-        softCream: "#FCF8F3",
+        primary: "#B88E2F", //gold
+        secondary: "#F2E8DC", //softCream
       },
     },
   },

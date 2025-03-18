@@ -61,7 +61,7 @@
                 class="bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-white py-1 md:py-2 px-1 md:px-2 focus:outline-none w-16 sm:w-24 md:w-32 text-sm" />
               <div>
                 <button
-                  class="bg-gradient-purple-pink text-white px-2 ml-4 md:px-4 py-1 rounded-lg text-xs md:text-sm">
+                  class="bg-primary-gradient text-white px-2 ml-4 md:px-4 py-1 rounded-lg text-xs md:text-sm">
                   Search
                 </button>
               </div>
@@ -98,7 +98,7 @@
 
             <a
               href="#"
-              class="bg-gradient-purple-pink hover:opacity-80 text-white px-4 lg:px-6 py-1 lg:py-2 rounded-xl font-medium transition-opacity duration-300">
+              class="bg-primary-gradient hover:opacity-80 text-white px-4 lg:px-6 py-1 lg:py-2 rounded-xl font-medium transition-opacity duration-300">
               <button class="w-16 lg:w-[96px] text-sm lg:text-base">
                 Login
               </button>
@@ -158,7 +158,7 @@
 
             <a
               href="#"
-              class="bg-gradient-purple-pink hover:opacity-80 text-white px-4 py-2 rounded-xl font-medium transition-opacity duration-300">
+              class="bg-primary-gradient hover:opacity-80 text-white px-4 py-2 rounded-xl font-medium transition-opacity duration-300">
               <button class="w-16">Login</button>
             </a>
 

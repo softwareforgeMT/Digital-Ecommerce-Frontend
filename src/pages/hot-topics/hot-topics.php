@@ -83,7 +83,7 @@
                         <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm overflow-hidden transition-all duration-300 hover:shadow-md transform hover:-translate-y-1">
                             <div class="p-4 bg-gray-50 dark:bg-gray-700 flex items-center justify-center">
                                 <div class="w-full h-36 flex items-center justify-center overflow-hidden">
-                                    <img src="/assets/homePageCardImage.png" alt="Coming Soon" class="object-contain w-full h-full">
+                                    <img src="https://images.unsplash.com/photo-1593118247619-e2d6f056869e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Coming Soon" class="object-contain w-full h-full">
                                 </div>
                             </div>
                             <div class="p-5">
@@ -105,7 +105,7 @@
                         <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm overflow-hidden transition-all duration-300 hover:shadow-md transform hover:-translate-y-1">
                             <div class="p-4 bg-gray-50 dark:bg-gray-700 flex items-center justify-center">
                                 <div class="w-full h-36 flex items-center justify-center overflow-hidden">
-                                    <img src="/assets/homePageCardImage.png" alt="Coming Soon" class="object-contain w-full h-full">
+                                    <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Coming Soon" class="object-contain w-full h-full">
                                 </div>
                             </div>
                             <div class="p-5">
@@ -127,7 +127,7 @@
                         <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm overflow-hidden transition-all duration-300 hover:shadow-md transform hover:-translate-y-1">
                             <div class="p-4 bg-gray-50 dark:bg-gray-700 flex items-center justify-center">
                                 <div class="w-full h-36 flex items-center justify-center overflow-hidden">
-                                    <img src="/assets/homePageCardImage.png" alt="Coming Soon" class="object-contain w-full h-full">
+                                    <img src="https://images.unsplash.com/photo-1590845947376-2638caa89309?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Coming Soon" class="object-contain w-full h-full">
                                 </div>
                             </div>
                             <div class="p-5">
@@ -149,7 +149,7 @@
                         <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm overflow-hidden transition-all duration-300 hover:shadow-md transform hover:-translate-y-1">
                             <div class="p-4 bg-gray-50 dark:bg-gray-700 flex items-center justify-center">
                                 <div class="w-full h-36 flex items-center justify-center overflow-hidden">
-                                    <img src="/assets/homePageCardImage.png" alt="Coming Soon" class="object-contain w-full h-full">
+                                    <img src="https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Coming Soon" class="object-contain w-full h-full">
                                 </div>
                             </div>
                             <div class="p-5">
@@ -171,7 +171,7 @@
                         <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm overflow-hidden transition-all duration-300 hover:shadow-md transform hover:-translate-y-1">
                             <div class="p-4 bg-gray-50 dark:bg-gray-700 flex items-center justify-center">
                                 <div class="w-full h-36 flex items-center justify-center overflow-hidden">
-                                    <img src="/assets/homePageCardImage.png" alt="Coming Soon" class="object-contain w-full h-full">
+                                    <img src="https://images.unsplash.com/photo-1672906674630-67866460f965?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Coming Soon" class="object-contain w-full h-full">
                                 </div>
                             </div>
                             <div class="p-5">
@@ -193,7 +193,7 @@
                         <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm overflow-hidden transition-all duration-300 hover:shadow-md transform hover:-translate-y-1">
                             <div class="p-4 bg-gray-50 dark:bg-gray-700 flex items-center justify-center">
                                 <div class="w-full h-36 flex items-center justify-center overflow-hidden">
-                                    <img src="/assets/homePageCardImage.png" alt="Coming Soon" class="object-contain w-full h-full">
+                                    <img src="https://images.unsplash.com/photo-1580327344181-c1163234e5a0?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Coming Soon" class="object-contain w-full h-full">
                                 </div>
                             </div>
                             <div class="p-5">
@@ -215,7 +215,7 @@
                         <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm overflow-hidden transition-all duration-300 hover:shadow-md transform hover:-translate-y-1">
                             <div class="p-4 bg-gray-50 dark:bg-gray-700 flex items-center justify-center">
                                 <div class="w-full h-36 flex items-center justify-center overflow-hidden">
-                                    <img src="/assets/homePageCardImage.png" alt="Coming Soon" class="object-contain w-full h-full">
+                                    <img src="https://images.unsplash.com/photo-1564216329574-c839d4eedb1b?q=80&w=1944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Coming Soon" class="object-contain w-full h-full">
                                 </div>
                             </div>
                             <div class="p-5">
@@ -237,7 +237,7 @@
                         <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm overflow-hidden transition-all duration-300 hover:shadow-md transform hover:-translate-y-1">
                             <div class="p-4 bg-gray-50 dark:bg-gray-700 flex items-center justify-center">
                                 <div class="w-full h-36 flex items-center justify-center overflow-hidden">
-                                    <img src="/assets/homePageCardImage.png" alt="Coming Soon" class="object-contain w-full h-full">
+                                    <img src="https://images.unsplash.com/photo-1551033541-2075d8363c66?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Coming Soon" class="object-contain w-full h-full">
                                 </div>
                             </div>
                             <div class="p-5">
@@ -259,7 +259,7 @@
                         <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm overflow-hidden transition-all duration-300 hover:shadow-md transform hover:-translate-y-1">
                             <div class="p-4 bg-gray-50 dark:bg-gray-700 flex items-center justify-center">
                                 <div class="w-full h-36 flex items-center justify-center overflow-hidden">
-                                    <img src="/assets/homePageCardImage.png" alt="Coming Soon" class="object-contain w-full h-full">
+                                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Coming Soon" class="object-contain w-full h-full">
                                 </div>
                             </div>
                             <div class="p-5">
@@ -283,24 +283,17 @@
 
                     </div>
 
-                    <!-- Pagination (Optional) -->
-                    <div class="mt-12 flex justify-center">
-                        <nav class="flex items-center space-x-1" aria-label="Pagination">
-                            <a href="#" class="px-3 py-2 rounded-md text-sm font-medium text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700">
-                                Previous
-                            </a>
-                            <a href="#" class="px-3 py-2 rounded-md text-sm font-medium text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20">
-                                1
-                            </a>
-                            <a href="#" class="px-3 py-2 rounded-md text-sm font-medium text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700">
-                                2
-                            </a>
-                            <a href="#" class="px-3 py-2 rounded-md text-sm font-medium text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700">
-                                3
-                            </a>
-                            <span class="px-3 py-2 text-gray-500 dark:text-gray-400">...</span>
-                            <a href="#" class="px-3 py-2 rounded-md text-sm font-medium text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700">
-                                Next
+                    <!-- Pagination -->
+                    <div class="flex justify-center mt-16">
+                        <nav class="inline-flex shadow-md rounded-lg overflow-hidden">
+                            <a href="#" class="px-5 py-3 bg-primary text-white text-sm font-medium transition-colors duration-300">1</a>
+                            <a href="#" class="px-5 py-3 bg-white border-t border-b border-r border-gray-300 text-gray-700 text-sm font-medium hover:bg-gray-100 transition-colors duration-300">2</a>
+                            <a href="#" class="px-5 py-3 bg-white border-t border-b border-r border-gray-300 text-gray-700 text-sm font-medium hover:bg-gray-100 transition-colors duration-300">3</a>
+                            <a href="#" class="px-5 py-3 bg-white border-t border-b border-r border-gray-300 text-gray-700 text-sm font-medium hover:bg-gray-100 transition-colors duration-300 group flex items-center">
+                                <span>Next</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 transform transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                </svg>
                             </a>
                         </nav>
                     </div>

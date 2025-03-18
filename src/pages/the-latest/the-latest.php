@@ -28,12 +28,12 @@
         </div>
     </section>
 
-    <!-- Main Section with Decorative Background -->
+    <!-- Main Section -->
     <section class="relative text-gray-900 dark:text-white transition-colors duration-300 py-0 md:py-16 overflow-hidden">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <!-- Heading -->
             <div class="text-center max-w-3xl mx-auto mb-16">
-                <h1 class="text-3xl md:text-5xl font-bold  bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600 dark:from-indigo-400 dark:to-purple-400 inline-block">
+                <h1 class="text-3xl md:text-5xl font-bold text-black dark:text-white inline-block">
                     Our Featured Services
                 </h1>
                 <p class="text-center text-gray-700 dark:text-gray-300 mt-4 text-lg max-w-2xl mx-auto leading-relaxed">
@@ -90,11 +90,11 @@
                             High-quality wooden PC cases designed for gamers who appreciate both aesthetics and performance.
                         </p>
 
-                        <!-- Button with enhanced animation -->
-                        <div class="flex justify-start mt-4">
-                            <a href="/pages/the-latest/detailed-the-latest.php" class="group flex items-center bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 dark:from-indigo-500 dark:to-purple-500 dark:hover:from-indigo-600 dark:hover:to-purple-600 text-white font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-indigo-500/30 dark:hover:shadow-indigo-500/50 transition-all duration-300 transform hover:-translate-y-1">
-                                <span>Read more</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform duration-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <!-- button -->
+                        <div class="mt-6">
+                            <a href="/pages/the-latest/detailed-the-latest.php" class="group inline-flex items-center px-8 py-4 rounded-xl bg-primary-gradient text-white font-medium transition-all duration-300 transform hover:-translate-y-1 shadow-md hover:shadow-lg">
+                                Read more
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <path d="M5 12h14"></path>
                                     <path d="M12 5l7 7-7 7"></path>
                                 </svg>
@@ -142,11 +142,11 @@
                             Handcrafted gaming consoles with premium materials and cutting-edge technology.
                         </p>
 
-                        <!-- Button with enhanced animation -->
-                        <div class="flex justify-start mt-4">
-                            <a href="/pages/the-latest/detailed-the-latest.php" class="group flex items-center bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 dark:from-indigo-500 dark:to-purple-500 dark:hover:from-indigo-600 dark:hover:to-purple-600 text-white font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-indigo-500/30 dark:hover:shadow-indigo-500/50 transition-all duration-300 transform hover:-translate-y-1">
-                                <span>Read more</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform duration-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <!-- button -->
+                        <div class="mt-6">
+                            <a href="/pages/the-latest/detailed-the-latest.php" class="group inline-flex items-center px-8 py-4 rounded-xl bg-primary-gradient text-white font-medium transition-all duration-300 transform hover:-translate-y-1 shadow-md hover:shadow-lg">
+                                Read more
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <path d="M5 12h14"></path>
                                     <path d="M12 5l7 7-7 7"></path>
                                 </svg>
@@ -194,11 +194,11 @@
                             Ergonomic wooden controllers designed for comfort during extended gaming sessions.
                         </p>
 
-                        <!-- Button with enhanced animation -->
-                        <div class="flex justify-start mt-4">
-                            <a href="/pages/the-latest/detailed-the-latest.php" class="group flex items-center bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 dark:from-indigo-500 dark:to-purple-500 dark:hover:from-indigo-600 dark:hover:to-purple-600 text-white font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-indigo-500/30 dark:hover:shadow-indigo-500/50 transition-all duration-300 transform hover:-translate-y-1">
-                                <span>Read more</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform duration-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <!-- button -->
+                        <div class="mt-6">
+                            <a href="/pages/the-latest/detailed-the-latest.php" class="group inline-flex items-center px-8 py-4 rounded-xl bg-primary-gradient text-white font-medium transition-all duration-300 transform hover:-translate-y-1 shadow-md hover:shadow-lg">
+                                Read more
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <path d="M5 12h14"></path>
                                     <path d="M12 5l7 7-7 7"></path>
                                 </svg>
@@ -209,10 +209,10 @@
             </div>
 
 
-            <!-- Pagination with Hover Effects -->
+            <!-- Pagination -->
             <div class="flex justify-center mt-16">
                 <nav class="inline-flex shadow-md rounded-lg overflow-hidden">
-                    <a href="#" class="px-5 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 dark:from-indigo-500 dark:to-purple-500 dark:hover:from-indigo-600 dark:hover:to-purple-600 text-white text-sm font-medium transition-colors duration-300">1</a>
+                    <a href="#" class="px-5 py-3 bg-primary text-white text-sm font-medium transition-colors duration-300">1</a>
                     <a href="#" class="px-5 py-3 bg-white border-t border-b border-r border-gray-300 text-gray-700 text-sm font-medium hover:bg-gray-100 transition-colors duration-300">2</a>
                     <a href="#" class="px-5 py-3 bg-white border-t border-b border-r border-gray-300 text-gray-700 text-sm font-medium hover:bg-gray-100 transition-colors duration-300">3</a>
                     <a href="#" class="px-5 py-3 bg-white border-t border-b border-r border-gray-300 text-gray-700 text-sm font-medium hover:bg-gray-100 transition-colors duration-300 group flex items-center">
@@ -225,7 +225,6 @@
             </div>
     </section>
 
-
     <!-- Why Choose Us -->
     <section class="relative overflow-hidden text-gray-900 dark:text-white transition-colors duration-300">
         <div class="py-16 md:py-24 relative z-10">
@@ -233,7 +232,7 @@
                 <!-- Section Title -->
                 <div class="text-center mb-12 transform transition-all duration-700 hover:scale-105">
                     <div class="text-center max-w-3xl mx-auto mb-16">
-                        <h1 class="text-3xl md:text-5xl font-bold  bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600 dark:from-indigo-400 dark:to-purple-400 inline-block">
+                        <h1 class="text-3xl md:text-5xl font-bold text-black dark:text-white inline-block">
                             Why Choose Us
                         </h1>
                         <!-- Decorative line -->
@@ -320,11 +319,11 @@
                         </div>
                     </div>
 
-                    <!-- Button with enhanced animation -->
-                    <div class="flex justify-center mt-16">
-                        <a href="#" class="group flex items-center bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 dark:from-indigo-500 dark:to-purple-500 dark:hover:from-indigo-600 dark:hover:to-purple-600 text-white font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-indigo-500/30 dark:hover:shadow-indigo-500/50 transition-all duration-300 transform hover:-translate-y-1">
-                            <span>Explore All Services</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform duration-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <!-- button -->
+                    <div class="mt-10 flex justify-center items-center">
+                        <a href="#" class="group inline-flex items-center px-6 py-3 rounded-full bg-primary-gradient text-white font-medium transition-all duration-300 transform hover:-translate-y-1 shadow-md hover:shadow-lg">
+                            Explore all services
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M5 12h14"></path>
                                 <path d="M12 5l7 7-7 7"></path>
                             </svg>

@@ -14,8 +14,8 @@
   <!-- Navigation Bar -->
   <?php include 'components/navbar.php'; ?>
 
-  <!-- Modern Hero Section -->
-  <section class="h-screen overflow-hidden bg-gray-50 dark:bg-gray-900 relative">
+  <!-- Hero Section -->
+  <section class="relative h-screen overflow-hidden bg-gray-50 dark:bg-gray-900">
 
     <!-- Background Image -->
     <div class="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -28,19 +28,20 @@
     <div class="z-10 relative h-full container mx-auto px-4 md:px-6 flex items-center">
       <div class="max-w-xl">
         <!-- Badge -->
-        <span class="inline-block px-5 py-2 rounded-full bg-purple-100 bg-opacity-50 dark:bg-purple-800 dark:bg-opacity-50 text-purple-700 dark:text-pink-100 text-sm font-medium mb-4 border border-transparent dark:border-pink-500 dark:border-opacity-30 shadow-sm">
+        <span class="inline-block px-5 py-2 rounded-full bg-purple-100 bg-opacity-50 dark:bg-purple-800 dark:bg-opacity-50 text-black dark:text-white text-sm font-medium mb-4 border border-transparent dark:border-pink-500 dark:border-opacity-30 shadow-sm">
           Where Convenience Meets Innovation
         </span>
 
         <!-- Heading -->
-        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 opacity-0 transform -translate-y-4 animate-fade-in-down animation-delay-150">
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 animate-fade-in-down">
           Discover Our
           <span class="relative">
-            <span class="text-transparent bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text">
+            <span class="text-transparent bg-primary-gradient bg-clip-text">
               New Collection
             </span>
           </span>
         </h1>
+
 
         <!-- Description -->
         <p class="text-gray-200 mt-6 text-lg max-w-2xl mx-auto leading-relaxed mb-4">
@@ -49,7 +50,7 @@
 
         <!-- Button -->
         <a href="#" class="relative inline-flex items-center">
-          <button class="bg-gradient-to-r from-indigo-500 to-purple-600 text-white font-bold py-3 px-10 rounded-full transition-all duration-300 transform hover:-translate-y-2">
+          <button class="bg-primary-gradient text-white font-bold py-3 px-10 rounded-full transition-all duration-300 transform hover:-translate-y-2">
             <span class="relative flex items-center">
               Explore More Products
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -65,21 +66,46 @@
   <!-- Home Page Cards -->
   <?php
   $cards = [
-    ["image" => "/assets/homePageCardImage.png", "title" => "Heading 1"],
-    ["image" => "/assets/homePageCardImage.png", "title" => "Heading 2"],
-    ["image" => "/assets/homePageCardImage.png", "title" => "Heading 3"],
-    ["image" => "/assets/homePageCardImage.png", "title" => "Heading 4"],
-    ["image" => "/assets/homePageCardImage.png", "title" => "Heading 5"],
-    ["image" => "/assets/homePageCardImage.png", "title" => "Heading 6"]
+    [
+      "image" => "https://img.freepik.com/free-vector/realistic-display-smartphone-with-different-apps_52683-30241.jpg",
+      "title" => "Flagship Smartphone",
+      "description" => "Experience cutting-edge technology with our latest flagship smartphone, featuring a powerful processor, and stunning display."
+    ],
+    [
+      "image" => "https://img.freepik.com/free-vector/realistic-smartphone-device_52683-29765.jpg",
+      "title" => "Budget-Friendly Smartphone",
+      "description" => "A reliable and affordable smartphone packed with essential features, long battery life, and a sleek design."
+    ],
+    [
+      "image" => "https://img.freepik.com/free-photo/3d-workstation-with-computer-peripheral-devices_23-2150714201.jpg",
+      "title" => "Gaming PC Setup",
+      "description" => "Dominate your gaming sessions with a high-performance gaming PC, featuring the latest GPU, fast SSD, and immersive RGB lighting."
+    ],
+    [
+      "image" => "https://img.freepik.com/free-vector/realistic-smartphone-device_52683-29765.jpg",
+      "title" => "Mid-Range Smartphone",
+      "description" => "Strike the perfect balance between performance and affordability with our mid-range smartphone, ideal for everyday use."
+    ],
+    [
+      "image" => "https://img.freepik.com/free-vector/realistic-display-smartphone-with-different-apps_52683-30241.jpg",
+      "title" => "Premium Laptop",
+      "description" => "Stay productive on the go with a lightweight, high-performance laptop featuring a stunning display and long-lasting battery life."
+    ],
+    [
+      "image" => "https://img.freepik.com/free-vector/realistic-smartphone-device_52683-29765.jpg",
+      "title" => "Next-Gen Gaming Console",
+      "description" => "Enjoy immersive gaming with our next-gen console, offering ultra-fast load times, and breathtaking graphics."
+    ]
   ];
+
   ?>
 
-  <section class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-300 flex flex-col items-center py-16">
+  <section class="relative bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-300 flex flex-col items-center py-16">
 
     <!-- Section Header -->
     <div class="relative z-10 mb-12">
       <h1 class="text-4xl md:text-5xl font-bold text-center mb-4 relative">
-        <span class="text-transparent bg-gradient-to-r from-indigo-600 to-purple-600 dark:from-indigo-400 dark:to-purple-400 bg-clip-text">The Latest</span>
+        <span class="">The Latest</span>
       </h1>
       <p class="text-gray-600 dark:text-gray-300 text-center mb-2 max-w-2xl">
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -92,9 +118,9 @@
       </div>
     </div>
 
-    <div class="w-[90%] md:w-full max-w-7xl overflow-hidden relative">
-      <!-- Arrow Buttons -->
-      <button id="scrollLeft" class="absolute left-0 top-1/2 transform -translate-y-1/2 p-3 rounded-full z-10 text-gray-900 dark:text-white bg-white/80 dark:bg-gray-800/80 shadow-lg hover:bg-white hover:dark:bg-gray-800 transition-all duration-300">
+    <div class="w-[90%] md:w-full max-w-7xl overflow-hidden">
+      <!-- Left Arrow Button -->
+      <button id="scrollLeft" class="absolute left-2 md:left-8 top-1/2 transform -translate-y-1/2 p-3 rounded-full z-10 bg-white hover:bg-primary-gradient text-black hover:text-white w-12 h-12 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 shadow-lg transition-all duration-300">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
         </svg>
@@ -103,18 +129,18 @@
       <!-- Cards Wrapper -->
       <div id="cardContainer" class="flex space-x-6 md:space-x-8 transition-transform duration-500 py-10">
         <?php foreach ($cards as $index => $card): ?>
-          <div class="card min-w-[290px] md:min-w-[365px] bg-white dark:bg-gray-800 rounded-xl shadow-xl overflow-hidden transform transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl border border-gray-100 dark:border-gray-700">
+          <div class="card min-w-[290px] md:min-w-[365px] h-full bg-white dark:bg-gray-800 rounded-xl shadow-xl overflow-hidden transform transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl border border-gray-100 dark:border-gray-700">
             <div class="relative">
-              <img src="<?= $card['image'] ?>" class="w-full h-[200px] object-cover" alt="<?= $card['title'] ?>" />
+              <img src="<?= $card['image'] ?>" class="w-full full object-contain" alt="<?= $card['title'] ?>" />
               <div class="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-black/50 to-transparent"></div>
             </div>
             <div class="p-6">
-              <span class="inline-block px-3 py-1 text-xs font-semibold text-white bg-gradient-to-r from-purple-600 to-pink-500 rounded-full mb-3">Featured <?= $index + 1 ?></span>
+              <span class="inline-block px-3 py-1 text-xs font-semibold text-white bg-primary-gradient rounded-full mb-3">Featured <?= $index + 1 ?></span>
               <h2 class="text-xl font-bold mb-3 dark:text-white"><?= $card['title'] ?></h2>
-              <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p class="text-gray-600 dark:text-gray-300 text-sm mb-4"><?= $card['description'] ?></p>
               <div class="flex justify-between items-center">
                 <a href="/pages/the-latest/the-latest.php">
-                  <button class="bg-gradient-to-r from-purple-600 to-pink-500 text-white px-4 py-2 rounded-lg flex items-center gap-2 hover:shadow-lg transition-all duration-300 group">
+                  <button class="bg-primary-gradient text-white px-4 py-2 rounded-lg flex items-center gap-2 hover:shadow-lg transition-all duration-300 group">
                     <span>Learn More</span>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -129,7 +155,7 @@
       </div>
 
       <!-- Right Arrow Button -->
-      <button id="scrollRight" class="absolute right-0 top-1/2 transform -translate-y-1/2 p-3 rounded-full z-10 text-gray-900 dark:text-white bg-white/80 dark:bg-gray-800/80 shadow-lg hover:bg-white hover:dark:bg-gray-800 transition-all duration-300">
+      <button id="scrollRight" class="absolute right-2 md:right-8 top-1/2 transform -translate-y-1/2 p-3 rounded-full z-10 bg-white hover:bg-primary-gradient text-black hover:text-white w-12 h-12 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 shadow-lg transition-all duration-300">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
         </svg>
@@ -145,7 +171,6 @@
   </section>
 
   <!-- Brand Categories Section -->
-
   <?php
   $categories = [
     [
@@ -164,15 +189,13 @@
   ?>
 
   <section class="relative py-20 overflow-hidden  text-gray-800 dark:text-white transition-all duration-500">
-
-
     <div class=" z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <!-- Section Header with decorative accents -->
       <div class="text-center mb-16">
         <span class="inline-block px-5 py-2 rounded-full bg-purple-100 bg-opacity-50 dark:bg-purple-800 dark:bg-opacity-50 text-purple-700 dark:text-pink-100 text-sm font-medium mb-4 border border-transparent dark:border-pink-500 dark:border-opacity-30 shadow-sm">
           Featured Categories
         </span>
-        <h2 class="text-4xl md:text-5xl font-bold mb-4 text-transparent bg-gradient-to-r from-indigo-600 to-purple-600 dark:from-indigo-400 dark:to-purple-400 bg-clip-text">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4 ">
           Discover Our Premium Selections
         </h2>
         <p class="max-w-2xl mx-auto text-gray-600 dark:text-purple-200">
@@ -190,18 +213,20 @@
         <div id="carousel" class="flex transition-transform duration-500">
           <?php foreach ($categories as $index => $category): ?>
             <div class="min-w-full opacity-0 translate-y-8" data-carousel-item data-index="<?= $index ?>">
-              <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-xl dark:shadow-purple-900/20 p-8 backdrop-blur-sm bg-opacity-80 dark:bg-opacity-30 border border-purple-100 dark:border-purple-800 hover:shadow-2xl transition-all duration-500">
+              <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-xl dark:shadow-purple-900/20 p-8 backdrop-blur-sm bg-opacity-80 dark:bg-opacity-30 border dark:border-white hover:shadow-2xl transition-all duration-500">
                 <div class="flex flex-col lg:flex-row gap-8">
                   <!-- Text Content -->
                   <div class="w-full lg:w-1/3 flex flex-col justify-center">
-                    <h3 class="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-500 dark:from-purple-400 dark:to-pink-400 bg-clip-text text-transparent">
+                    <h3 class="text-2xl font-bold ">
                       <?= htmlspecialchars($category["title"]) ?>
                     </h3>
-                    <p class="mt-4 text-gray-600 dark:text-purple-200">
+                    <p class="mt-4 text-gray-600 dark:text-gray-300">
                       <?= htmlspecialchars($category["description"]) ?>
                     </p>
+
+                    <!-- button -->
                     <div class="mt-6">
-                      <a href="#" class="group inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-pink-500 hover:to-purple-500 text-white font-medium transition-all duration-300 transform hover:-translate-y-1 shadow-md hover:shadow-lg">
+                      <a href="#" class="group inline-flex items-center px-6 py-3 rounded-full bg-primary-gradient text-white font-medium transition-all duration-300 transform hover:-translate-y-1 shadow-md hover:shadow-lg">
                         Explore all categories
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                           <path d="M5 12h14"></path>
@@ -214,32 +239,26 @@
                   <!-- Images Grid -->
                   <div class="w-full lg:w-2/3 grid grid-cols-1 md:grid-cols-3 gap-6">
                     <!-- Card 1 -->
-                    <div class="group bg-purple-50 dark:bg-purple-900/30 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 hover:scale-[1.02]">
-                      <div class="p-6 flex flex-col items-center">
-                        <div class="h-40 w-40 flex items-center justify-center mb-4 bg-white dark:bg-gray-800 rounded-full p-4 shadow-inner">
-                          <img src="../assets/mobile.png" class="w-32 h-32 object-contain transform group-hover:scale-110 transition-transform duration-300" alt="Mobile image" />
-                        </div>
-                        <p class="text-xl font-bold text-center text-purple-700 dark:text-pink-200">Mobile</p>
+                    <div class="group bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 hover:scale-[1.02]">
+                      <div class="p-6 flex flex-col items-center gap-y-4 h-full">
+                        <img src="https://images.unsplash.com/photo-1736173155834-6cd98d8dc9fe?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-300" alt="Mobile image" />
+                        <p class="text-xl font-bold text-center text-gray-800 dark:text-white">Mobile</p>
                       </div>
                     </div>
 
                     <!-- Card 2 -->
-                    <div class="group bg-purple-50 dark:bg-purple-900/30 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 hover:scale-[1.02]">
-                      <div class="p-6 flex flex-col items-center">
-                        <div class="h-40 w-40 flex items-center justify-center mb-4 bg-white dark:bg-gray-800 rounded-full p-4 shadow-inner">
-                          <img src="../assets/PCS.png" class="w-32 h-32 object-contain transform group-hover:scale-110 transition-transform duration-300" alt="PCs Images" />
-                        </div>
-                        <p class="text-xl font-bold text-center text-purple-700 dark:text-pink-200">PCs</p>
+                    <div class="group bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 hover:scale-[1.02]">
+                      <div class="p-6 flex flex-col items-center gap-y-4 h-full">
+                        <img src="https://images.unsplash.com/photo-1596697938846-313cdbbe4fd8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-300" alt="Mobile image" />
+                        <p class="text-xl font-bold text-center text-gray-800 dark:text-white">PCs</p>
                       </div>
                     </div>
 
                     <!-- Card 3 -->
-                    <div class="group bg-purple-50 dark:bg-purple-900/30 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 hover:scale-[1.02]">
-                      <div class="p-6 flex flex-col items-center">
-                        <div class="h-40 w-40 flex items-center justify-center mb-4 bg-white dark:bg-gray-800 rounded-full p-4 shadow-inner">
-                          <img src="../assets/console.png" class="w-32 h-32 object-contain transform group-hover:scale-110 transition-transform duration-300" alt="Console image" />
-                        </div>
-                        <p class="text-xl font-bold text-center text-purple-700 dark:text-pink-200">Console</p>
+                    <div class="group bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 hover:scale-[1.02]">
+                      <div class="p-6 flex flex-col items-center gap-y-4 h-full">
+                        <img src="https://images.unsplash.com/photo-1632312527375-bd5d5a0d3484?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-300" alt="Mobile image" />
+                        <p class="text-xl font-bold text-center text-gray-800 dark:text-white">Console</p>
                       </div>
                     </div>
                   </div>
@@ -249,14 +268,15 @@
           <?php endforeach; ?>
         </div>
 
-        <!-- Navigation Buttons -->
-        <button id="prev" class="absolute left-4 lg:left-12 top-2/3 transform -translate-y-1/2 p-3 bg-white/80 dark:bg-purple-800/80 text-purple-700 dark:text-white rounded-full shadow-lg hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 hover:text-white transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900">
+        <!-- Navigation Left Button -->
+        <button id="prev" class="absolute left-4 lg:left-12 top-2/3 transform -translate-y-1/2 p-3 bg-white hover:bg-primary-gradient text-black hover:text-white w-12 h-12 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 rounded-full shadow-lg transition-all duration-300">
           <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
           </svg>
         </button>
 
-        <button id="next" class="absolute right-4 lg:right-12 top-2/3 transform -translate-y-1/2 p-3 bg-white/80 dark:bg-purple-800/80 text-purple-700 dark:text-white rounded-full shadow-lg hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 hover:text-white transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900">
+        <!-- Navigation Right Button -->
+        <button id="next" class="absolute right-4 lg:right-12 top-2/3 transform -translate-y-1/2 p-3 bg-white hover:bg-primary-gradient text-black hover:text-white w-12 h-12 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 rounded-full shadow-lg transition-all duration-300">
           <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
           </svg>
@@ -273,31 +293,52 @@
   </section>
 
 
-
   <!-- Our Products Section -->
   <?php
   $products = [
-    ["id" => 1, "name" => "Product 1", "desc" => "Short description 1", "price" => "0 - $5", "discount" => 5, "img" => "../assets/cupImage.png"],
-    ["id" => 2, "name" => "Product 2", "desc" => "Short description 2", "price" => "5 - $10", "discount" => 1, "img" => "../assets/cupImage.png"],
-    ["id" => 3, "name" => "Product 3", "desc" => "Short description 3", "price" => "5 - $15", "discount" => 5, "img" => "../assets/cupImage.png"],
-    ["id" => 4, "name" => "Product 4", "desc" => "Short description 4", "price" => "0 - $15", "discount" => 14, "img" => "../assets/cupImage.png"],
-    // ["id" => 5, "name" => "Product 5", "desc" => "Short description 5", "price" => "0 - $5", "discount" => 2, "img" => "../assets/cupImage.png"],
-    // ["id" => 6, "name" => "Product 6", "desc" => "Short description 6", "price" => "0 - $5", "discount" => 4, "img" => "../assets/cupImage.png"],
-    // ["id" => 7, "name" => "Product 7", "desc" => "Short description 7", "price" => "10 - $15", "discount" => 10, "img" => "../assets/cupImage.png"],
-    // ["id" => 8, "name" => "Product 8", "desc" => "Short description 8", "price" => "5 - $10", "discount" => 9, "img" => "../assets/cupImage.png"],
+    [
+      "id" => 1,
+      "name" => "Gaming PC - RTX 4070",
+      "desc" => "High-performance gaming PC with an Intel i7 processor and NVIDIA RTX 4070 GPU, ideal for AAA gaming.",
+      "price" => "$1500 - $2000",
+      "discount" => 10,
+      "img" => "https://images.unsplash.com/photo-1587302912306-cf1ed9c33146?q=80&w=1960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    [
+      "id" => 2,
+      "name" => "PlayStation 5",
+      "desc" => "Next-gen PlayStation 5 console with ultra-fast SSD, ray tracing support, and an immersive gaming experience.",
+      "price" => "$499 - $599",
+      "discount" => 5,
+      "img" => "https://images.unsplash.com/photo-1678761442615-5af77170f925?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    [
+      "id" => 3,
+      "name" => "Xbox Series X",
+      "desc" => "Powerful Xbox Series X console with 4K gaming, 120FPS support, and Game Pass access.",
+      "price" => "$499 - $599",
+      "discount" => 8,
+      "img" => "https://images.unsplash.com/photo-1632312527375-bd5d5a0d3484?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    [
+      "id" => 4,
+      "name" => "iPhone 15 Pro Max",
+      "desc" => "Latest iPhone 15 Pro Max with A17 Bionic chip, ProMotion display, and advanced camera system.",
+      "price" => "$1099 - $1299",
+      "discount" => 6,
+      "img" => "https://images.unsplash.com/photo-1736173155834-6cd98d8dc9fe?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
   ];
   ?>
 
   <section class="relative py-20 overflow-hidden  text-gray-800 dark:text-white transition-all duration-500">
-
-
     <div class="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
       <!-- Section Header with decorative accents -->
       <div class="text-center mb-16 relative">
         <span class="inline-block px-5 py-2 rounded-full bg-purple-100 bg-opacity-50 dark:bg-purple-800 dark:bg-opacity-50 text-purple-700 dark:text-pink-100 text-sm font-medium mb-4 border border-transparent dark:border-pink-500 dark:border-opacity-30 shadow-sm">
           Our Collection
         </span>
-        <h1 class="text-4xl md:text-5xl font-bold mb-4 text-transparent bg-gradient-to-r from-indigo-600 to-purple-600 dark:from-indigo-400 dark:to-purple-400 bg-clip-text">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4 ">
           Discover Our Premium Products
         </h1>
         <p class="max-w-2xl mx-auto text-gray-600 dark:text-purple-200">
@@ -315,7 +356,7 @@
       <div id="productGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         <?php foreach ($products as $index => $product) : ?>
           <!-- Product Card with animation classes -->
-          <div class="product-card opacity-0 transform translate-y-8 transition-all duration-700 ease-out bg-white dark:bg-gray-800 bg-opacity-80 dark:bg-opacity-30 backdrop-filter backdrop-blur-lg rounded-2xl overflow-hidden group h-[450px] border border-purple-100 dark:border-purple-800 shadow-xl hover:shadow-2xl hover:scale-[1.02] " data-delay="<?= $index * 100 ?>">
+          <div class="product-card opacity-0 transform translate-y-8 transition-all duration-700 ease-out bg-white dark:bg-gray-800 bg-opacity-80 dark:bg-opacity-30 backdrop-filter backdrop-blur-lg rounded-2xl overflow-hidden group h-[450px]  shadow-xl hover:shadow-2xl hover:scale-[1.02] " data-delay="<?= $index * 100 ?>">
             <!-- Status Badge -->
             <div class="absolute top-4 right-4 z-10">
               <div class="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-r from-pink-600 to-purple-600 font-bold text-white shadow-lg">
@@ -333,18 +374,14 @@
 
             <!-- Product Info -->
             <div class="p-6 flex flex-col flex-grow">
-              <h2 class="text-xl font-bold mb-2 text-purple-700 dark:text-pink-200"><?= $product["name"] ?></h2>
-              <p class="text-gray-600 dark:text-purple-200 text-sm mb-3"><?= $product["desc"] ?></p>
+              <h2 class="text-xl font-bold mb-2 text-black dark:text-white"><?= $product["name"] ?></h2>
+              <p class="text-gray-600 dark:text-gray-300 text-sm mb-3"><?= $product["desc"] ?></p>
               <div class="mt-auto flex justify-between items-end">
                 <div>
                   <span class="text-xl font-bold block mb-1 text-gray-800 dark:text-white"><?= $product["price"] ?></span>
-                  <span class="text-xs text-gray-500 dark:text-purple-300">Max Discount: $<?= $product["discount"] ?></span>
+                  <span class="text-xs text-gray-500 dark:text-gray-300">Max Discount: $<?= $product["discount"] ?></span>
                 </div>
-                <button class="h-10 w-10 rounded-full flex items-center justify-center bg-gradient-to-r from-purple-500 to-pink-500 text-white transition-all duration-300 hover:from-pink-500 hover:to-purple-500 shadow-md hover:shadow-lg group-hover:scale-110">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
-                  </svg>
-                </button>
+
               </div>
             </div>
 
@@ -383,19 +420,14 @@
         <?php endforeach; ?>
       </div>
 
-      <!-- Show More Button -->
-      <div class="flex justify-center mt-16">
-        <a href="#" class="relative inline-flex items-center">
-          <button class="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-pink-500 hover:to-purple-500 text-white font-bold py-3 px-10 rounded-full shadow-xl hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-            <span class="relative z-10 flex items-center">
-              Explore More Products
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </span>
-          </button>
-          <!-- Button glow effect -->
-          <span class="absolute -inset-2 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 opacity-30 blur-lg transform scale-110 animate-pulse"></span>
+      <!-- button -->
+      <div class="mt-10 flex justify-center items-center">
+        <a href="#" class="group inline-flex items-center px-6 py-3 rounded-full bg-primary-gradient text-white font-medium transition-all duration-300 transform hover:-translate-y-1 shadow-md hover:shadow-lg">
+          Explore more products
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14"></path>
+            <path d="M12 5l7 7-7 7"></path>
+          </svg>
         </a>
       </div>
     </div>
@@ -403,6 +435,7 @@
   </section>
 
 
+  <!-- Our Services -->
   <?php
   $services = [
     ["title" => "Web Development", "desc" => "Build modern, scalable websites and applications.", "img" => "../assets/homePageServicesImg.png"],
@@ -411,7 +444,6 @@
   ];
   ?>
 
-  <!-- Our Services -->
   <section class="relative text-gray-900 dark:text-white transition-colors duration-300 py-20 overflow-hidden">
     <!-- Decorative Elements -->
     <div class="absolute top-0 left-0 w-64 h-64 bg-gradient-to-br from-blue-500/10 to-purple-500/10 rounded-full -translate-x-1/2 -translate-y-1/2 dark:from-blue-500/20 dark:to-purple-500/20"></div>
@@ -421,7 +453,7 @@
     <div class="container mx-auto px-4 relative z-10">
       <!-- Heading with animated underline -->
       <div class="text-center max-w-3xl mx-auto mb-16">
-        <h1 class="text-3xl md:text-5xl font-bold  bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600 dark:from-indigo-400 dark:to-purple-400 inline-block">
+        <h1 class="text-3xl md:text-5xl font-bold inline-block">
           Our Featured Services
         </h1>
         <p class="text-center text-gray-700 dark:text-gray-300 mt-4 text-lg max-w-2xl mx-auto leading-relaxed">
@@ -492,11 +524,11 @@
         <?php endforeach; ?>
       </div>
 
-      <!-- Button with enhanced animation -->
-      <div class="flex justify-center mt-16">
-        <a href="#" class="group flex items-center bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 dark:from-indigo-500 dark:to-purple-500 dark:hover:from-indigo-600 dark:hover:to-purple-600 text-white font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-indigo-500/30 dark:hover:shadow-indigo-500/50 transition-all duration-300 transform hover:-translate-y-1">
-          <span>Explore All Services</span>
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform duration-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <!-- button -->
+      <div class="mt-10 flex justify-center items-center">
+        <a href="#" class="group inline-flex items-center px-6 py-3 rounded-full bg-primary-gradient text-white font-medium transition-all duration-300 transform hover:-translate-y-1 shadow-md hover:shadow-lg">
+          Explore all services
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M5 12h14"></path>
             <path d="M12 5l7 7-7 7"></path>
           </svg>
@@ -506,9 +538,7 @@
   </section>
 
   <!-- Hot Topics -->
-
   <section class="relative py-24 overflow-hidden w-full mx-auto">
-
     <div class="container mx-auto px-6 relative mt-24">
       <div class="flex flex-col gap-x-10 lg:flex-row items-center">
         <!-- Left side content -->
@@ -516,7 +546,7 @@
           <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-black dark:text-white mb-6">
             Hot
             <span class="relative">
-              <span class="text-transparent bg-gradient-to-r from-indigo-600 to-purple-600 dark:from-indigo-400 dark:to-purple-400 bg-clip-text">Topics</span>
+              <span class="">Topics</span>
             </span>
           </h1>
           <div class="w-20 h-1 bg-gradient-to-r from-indigo-600 to-purple-600 dark:from-indigo-400 dark:to-purple-400 mb-8"></div>
@@ -525,11 +555,11 @@
             mollis accumsan sem, fermentum maximus augue cursus vitae. Sed ante nibh, laoreet
             quis vulputate at, venenatis eget elit. Sed feugiat dolor in fringilla volutpat.
           </p>
-          <!-- Button with enhanced animation -->
-          <div class="flex mt-16">
-            <a href="/pages/hot-topics/hot-topics.php" class="group flex items-center bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 dark:from-indigo-500 dark:to-purple-500 dark:hover:from-indigo-600 dark:hover:to-purple-600 text-white font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-indigo-500/30 dark:hover:shadow-indigo-500/50 transition-all duration-300 transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-              <span>Explore All Services</span>
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform duration-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <!-- button -->
+          <div class="mt-6">
+            <a href="/pages/hot-topics/hot-topics.php" class="group inline-flex items-center px-6 py-3 rounded-full bg-primary-gradient text-white font-medium transition-all duration-300 transform hover:-translate-y-1 shadow-md hover:shadow-lg">
+              Explore hot topics
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M5 12h14"></path>
                 <path d="M12 5l7 7-7 7"></path>
               </svg>
@@ -645,7 +675,7 @@
 
           <!-- Navigation Arrows -->
           <button id="prevButton"
-            class="absolute top-1/2 left-4 -translate-y-1/2 bg-white hover:bg-gradient-to-r from-indigo-600 to-purple-600 dark:from-indigo-400 dark:to-purple-400 text-black hover:text-white w-12 h-12 rounded-full flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition duration-300 z-10 shadow-lg"
+            class="absolute top-1/2 left-4 -translate-y-1/2 bg-white hover:bg-primary-gradient text-black hover:text-white w-12 h-12 rounded-full flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition duration-300 z-10 shadow-lg"
             aria-label="Previous slide">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
@@ -653,7 +683,7 @@
           </button>
 
           <button id="nextButton"
-            class="absolute top-1/2 right-4 -translate-y-1/2 bg-white hover:bg-gradient-to-r from-indigo-600 to-purple-600 dark:from-indigo-400 dark:to-purple-400 text-black hover:text-white w-12 h-12 rounded-full flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition duration-300 z-10 shadow-lg"
+            class="absolute top-1/2 right-4 -translate-y-1/2 bg-white hover:bg-primary-gradient text-black hover:text-white w-12 h-12 rounded-full flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition duration-300 z-10 shadow-lg"
             aria-label="Next slide">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />

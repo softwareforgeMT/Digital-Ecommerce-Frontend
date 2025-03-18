@@ -8,7 +8,7 @@
       <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
         <!-- Brand Section -->
         <div>
-          <h2 class="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-purple-400">Stay Connected</h2>
+          <h2 class="text-3xl font-bold bg-clip-text text-transparent bg-primary-gradient">Stay Connected</h2>
           <p class="mt-4 text-gray-300">Join our community and get the latest updates.</p>
           <!-- Social Media Links -->
           <div>
@@ -49,7 +49,7 @@
           <p class="mt-4 text-gray-300">Get the latest news, updates, and exclusive offers.</p>
           <div class="mt-4 flex bg-white dark:bg-gray-800 rounded-lg overflow-hidden">
             <input type="email" placeholder="Enter your email" class="w-full p-3 text-gray-800 dark:text-white bg-transparent outline-none">
-            <button class="px-4 bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-indigo-600 hover:to-purple-600 text-white font-medium">Subscribe</button>
+            <button class="px-4 bg-primary-gradient text-white font-medium">Subscribe</button>
           </div>
         </div>
       </div>
