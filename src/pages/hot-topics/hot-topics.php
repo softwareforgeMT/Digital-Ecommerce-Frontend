@@ -33,7 +33,10 @@
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
             <div class="flex flex-col lg:flex-row gap-8 lg:gap-12">
                 <!-- Sidebar -->
-                <div class="w-full lg:w-1/4 lg:sticky lg:top-20 lg:self-start">
+                <div class="w-full lg:w-1/4 ">
+                    <h2 class="text-xl font-bold text-gray-800 dark:text-gray-100 mb-2">Filter</h2>
+                    <div class="w-full h-[2px] bg-gray-300 dark:bg-gray-600 rounded-full mb-4"></div>
+
                     <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6 mb-6 transition-colors duration-300">
                         <h2 class="text-xl font-semibold mb-5 text-gray-800 dark:text-gray-100">Filter</h2>
                         <div class="border-t border-gray-200 dark:border-gray-700 pt-5">
@@ -74,7 +77,8 @@
 
                 <!-- Main Content -->
                 <div class="w-full lg:w-3/4">
-                    <h2 class="text-2xl font-bold text-gray-800 dark:text-gray-100 mb-6">Topics</h2>
+                    <h2 class="text-xl font-bold text-gray-800 dark:text-gray-100 mb-2">Topics</h2>
+                    <div class="w-full h-[2px] bg-gray-300 dark:bg-gray-600 rounded-full mb-4"></div>
 
                     <!-- Grid of Cards -->
                     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-8">
