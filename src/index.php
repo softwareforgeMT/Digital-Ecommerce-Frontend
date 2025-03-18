@@ -226,7 +226,7 @@
 
                     <!-- button -->
                     <div class="mt-6">
-                      <a href="#" class="group inline-flex items-center px-6 py-3 rounded-full bg-primary-gradient text-white font-medium transition-all duration-300 transform hover:-translate-y-1 shadow-md hover:shadow-lg">
+                      <a href="/pages/brand-categories/brand-categories.php" class="group inline-flex items-center px-6 py-3 rounded-full bg-primary-gradient text-white font-medium transition-all duration-300 transform hover:-translate-y-1 shadow-md hover:shadow-lg">
                         Explore all categories
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                           <path d="M5 12h14"></path>
