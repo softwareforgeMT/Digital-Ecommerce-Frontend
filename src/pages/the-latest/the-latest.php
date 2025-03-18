@@ -30,20 +30,6 @@
 
     <!-- Main Section with Decorative Background -->
     <section class="relative text-gray-900 dark:text-white transition-colors duration-300 py-0 md:py-16 overflow-hidden">
-        <!-- Dotted Grid Background Pattern -->
-        <div class="absolute inset-0 pointer-events-none overflow-hidden">
-            <div class="absolute inset-0 opacity-10">
-                <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                        <pattern id="dotted-grid" width="20" height="20" patternUnits="userSpaceOnUse">
-                            <circle cx="10" cy="10" r="1.5" class="fill-gray-700 dark:fill-gray-300" />
-                        </pattern>
-                    </defs>
-                    <rect width="100%" height="100%" fill="url(#dotted-grid)" />
-                </svg>
-            </div>
-        </div>
-
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <!-- Heading -->
             <div class="text-center max-w-3xl mx-auto mb-16">
@@ -242,21 +228,6 @@
 
     <!-- Why Choose Us -->
     <section class="relative overflow-hidden text-gray-900 dark:text-white transition-colors duration-300">
-        <!-- Dotted Grid Background Pattern -->
-        <div class="absolute inset-0 pointer-events-none overflow-hidden">
-            <div class="absolute inset-0 opacity-10">
-                <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                        <pattern id="dotted-grid" width="20" height="20" patternUnits="userSpaceOnUse">
-                            <circle cx="10" cy="10" r="1.5" class="fill-gray-700 dark:fill-gray-300" />
-                        </pattern>
-                    </defs>
-                    <rect width="100%" height="100%" fill="url(#dotted-grid)" />
-                </svg>
-            </div>
-        </div>
-
-
         <div class="py-16 md:py-24 relative z-10">
             <div class="container mx-auto px-4">
                 <!-- Section Title -->

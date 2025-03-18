@@ -29,21 +29,7 @@
     </section>
 
 
-    <section class="relative text-gray-900 dark:text-white transition-colors duration-300 py-4 md:py-16 lg:py-20 overflow-hidden">
-        <!-- Elegant Dotted Grid Background Pattern -->
-        <div class="absolute inset-0 pointer-events-none overflow-hidden">
-            <div class="absolute inset-0 opacity-5 dark:opacity-10">
-                <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                        <pattern id="dotted-grid" width="24" height="24" patternUnits="userSpaceOnUse">
-                            <circle cx="12" cy="12" r="1.25" class="fill-gray-700 dark:fill-gray-300" />
-                        </pattern>
-                    </defs>
-                    <rect width="100%" height="100%" fill="url(#dotted-grid)" />
-                </svg>
-            </div>
-        </div>
-
+    <section class="text-gray-900 dark:text-white transition-colors duration-300 py-4 md:py-16 lg:py-20 overflow-hidden">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
             <div class="flex flex-col lg:flex-row gap-8 lg:gap-12">
                 <!-- Sidebar -->

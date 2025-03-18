@@ -14,20 +14,6 @@
     <?php include '../../components/navbar.php'; ?>
 
     <div class="relative">
-        <!-- Dotted Grid Background Pattern -->
-        <div class="absolute inset-0 pointer-events-none overflow-hidden">
-            <div class="absolute inset-0 opacity-10">
-                <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                        <pattern id="dotted-grid" width="20" height="20" patternUnits="userSpaceOnUse">
-                            <circle cx="10" cy="10" r="1.5" class="fill-gray-700 dark:fill-gray-300" />
-                        </pattern>
-                    </defs>
-                    <rect width="100%" height="100%" fill="url(#dotted-grid)" />
-                </svg>
-            </div>
-        </div>
-
         <!-- Banner Section -->
         <section class="relative h-80 w-full bg-cover bg-center" style="background-image: url('/assets/homepagebg.jpg');">
             <div class="absolute inset-0 bg-white dark:bg-black bg-opacity-50 dark:bg-opacity-50 flex flex-col justify-center items-center text-center">

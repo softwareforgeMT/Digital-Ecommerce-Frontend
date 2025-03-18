@@ -29,19 +29,6 @@
     </section>
 
     <section class="relative w-full">
-        <!-- Elegant Dotted Grid Background Pattern -->
-        <div class="absolute inset-0 pointer-events-none overflow-hidden">
-            <div class="absolute inset-0 opacity-5 dark:opacity-10">
-                <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                        <pattern id="dotted-grid" width="24" height="24" patternUnits="userSpaceOnUse">
-                            <circle cx="12" cy="12" r="1.25" class="fill-gray-700 dark:fill-gray-300" />
-                        </pattern>
-                    </defs>
-                    <rect width="100%" height="100%" fill="url(#dotted-grid)" />
-                </svg>
-            </div>
-        </div>
         <div class="max-w-5xl mx-auto px-6 py-12">
             <!-- Image Container -->
             <div class="relative w-full h-[400px] md:h-[500px] lg:h-[600px] overflow-hidden rounded-3xl shadow-xl">

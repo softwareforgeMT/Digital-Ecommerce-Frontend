@@ -3,20 +3,6 @@
     <div class="absolute top-0 left-0 w-72 h-72 bg-gradient-to-br from-blue-500/10 to-purple-500/10 rounded-full -translate-x-1/2 -translate-y-1/2 dark:from-blue-500/20 dark:to-purple-500/20"></div>
     <div class="absolute bottom-0 right-0 w-96 h-96 bg-gradient-to-tl from-indigo-500/10 to-pink-500/10 rounded-full translate-x-1/3 translate-y-1/3 dark:from-indigo-500/20 dark:to-pink-500/20"></div>
 
-    <!-- Dotted Background -->
-    <div class="absolute inset-0 pointer-events-none">
-      <div class="absolute inset-0 opacity-10">
-        <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <pattern id="footer-grid" width="20" height="20" patternUnits="userSpaceOnUse">
-              <circle cx="10" cy="10" r="1.5" class="fill-gray-700 dark:fill-gray-300" />
-            </pattern>
-          </defs>
-          <rect width="100%" height="100%" fill="url(#footer-grid)" />
-        </svg>
-      </div>
-    </div>
-
     <!-- Footer Content -->
     <div class="container mx-auto px-6 relative z-10">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
