@@ -7,7 +7,7 @@
         <div class="flex items-center">
           <a href="#" class="flex items-center">
             <img
-              src="../assets/logo.png"
+              src="/assets/logo.png"
               alt="Computer Nostalgia Logo"
               class="h-10 md:h-14" />
           </a>
@@ -16,10 +16,10 @@
         <!-- Desktop Navigation Links - Hidden on Mobile -->
         <div class="hidden md:flex space-x-4 lg:space-x-8">
           <a
-            href="#"
+            href="/"
             class="text-purple-600 font-medium dark:text-purple-400 text-sm lg:text-base">Home</a>
           <a
-            href="#"
+            href="/pages/the-news/the-news.php"
             class="text-gray-800 dark:text-gray-300 font-medium text-sm lg:text-base">News</a>
           <a
             href="#"
@@ -61,7 +61,7 @@
                 class="bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-white py-1 md:py-2 px-1 md:px-2 focus:outline-none w-16 sm:w-24 md:w-32 text-sm" />
               <div>
                 <button
-                  class="bg-gradient-purple-pink text-white px-2 ml-4 md:ml-0 md:px-4 py-1 rounded-xl text-xs md:text-sm">
+                  class="bg-gradient-purple-pink text-white px-2 ml-4 md:px-4 py-1 rounded-lg text-xs md:text-sm">
                   Search
                 </button>
               </div>
@@ -72,7 +72,7 @@
           <button id="theme-toggle" class="p-1 md:p-2 rounded-md">
             <img
               id="theme-icon"
-              src="../assets/togglingIcon.png"
+              src="/assets/togglingIcon.png"
               alt="Theme Toggle"
               class="w-5 h-5 md:w-6 md:h-6 transition-all duration-300 dark:invert" />
           </button>
@@ -129,8 +129,8 @@
       <div id="mobile-menu" class="mobile-menu md:hidden mt-2">
         <div
           class="flex flex-col space-y-4 py-4 px-2 border-t border-gray-200 dark:border-gray-700">
-          <a href="#" class="text-purple-600 font-medium dark:text-purple-400">Home</a>
-          <a href="#" class="text-gray-800 dark:text-gray-300 font-medium">News</a>
+          <a href="/" class="text-purple-600 font-medium dark:text-purple-400">Home</a>
+          <a href="/pages/the-news/the-news.php" class="text-gray-800 dark:text-gray-300 font-medium">News</a>
           <a href="#" class="text-gray-800 dark:text-gray-300 font-medium">Store</a>
           <a href="#" class="text-gray-800 dark:text-gray-300 font-medium">NostalgiaBase</a>
           <a href="#" class="text-gray-800 dark:text-gray-300 font-medium">Services</a>

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detailed Topic</title>
+
+    <link rel="stylesheet" href="/css/output.css">
+</head>
+
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-300">
+    <!-- Include Navbar -->
+    <?php include '../../components/navbar.php'; ?>
+
+    <!-- Banner Section -->
+    <section class="relative h-80 w-full bg-cover bg-center" style="background-image: url('../../assets/homepagebg.jpg');">
+        <div class="absolute inset-0 bg-white dark:bg-black bg-opacity-50 dark:bg-opacity-50 flex flex-col justify-center items-center text-center">
+            <h1 class="text-black dark:text-white text-3xl md:text-5xl font-bold tracking-wide">Hot Topics</h1>
+            <!-- Breadcrumb -->
+            <div class="container mx-auto px-4 md:px-8 py-4">
+                <nav class="text-sm text-gray-800 dark:text-gray-200">
+                    <a href="/index.php" class="hover:text-purple-600 font-bold">Home</a>
+                    <span class="mx-2">/</span>
+                    <span class="text-gray-800 dark:text-gray-200 font-semibold">Topics</span>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="relative text-gray-900 dark:text-white transition-colors duration-300 py-4 md:py-16 lg:py-20 overflow-hidden">
+        <!-- Elegant Dotted Grid Background Pattern -->
+        <div class="absolute inset-0 pointer-events-none overflow-hidden">
+            <div class="absolute inset-0 opacity-5 dark:opacity-10">
+                <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <pattern id="dotted-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+                            <circle cx="12" cy="12" r="1.25" class="fill-gray-700 dark:fill-gray-300" />
+                        </pattern>
+                    </defs>
+                    <rect width="100%" height="100%" fill="url(#dotted-grid)" />
+                </svg>
+            </div>
+        </div>
+
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+            <div class="flex flex-col lg:flex-row gap-8 lg:gap-12">
+                <!-- Sidebar -->
+                <div class="w-full lg:w-1/4 lg:sticky lg:top-20 lg:self-start">
+                    <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6 mb-6 transition-colors duration-300">
+                        <h2 class="text-xl font-semibold mb-5 text-gray-800 dark:text-gray-100">Filter</h2>
+                        <div class="border-t border-gray-200 dark:border-gray-700 pt-5">
+                            <h3 class="text-md font-medium text-gray-700 dark:text-gray-300 mb-4">Category</h3>
+                            <div class="space-y-3">
+                                <div class="flex items-center justify-between group">
+                                    <div class="flex items-center">
+                                        <input type="checkbox" id="filter1" class="h-4 w-4 text-blue-600 rounded border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-600 transition duration-150">
+                                        <label for="filter1" class="ml-2.5 text-gray-700 dark:text-gray-300 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition duration-150">Filter 1</label>
+                                    </div>
+                                    <span class="text-gray-500 dark:text-gray-400 text-sm font-medium">4</span>
+                                </div>
+                                <div class="flex items-center justify-between group">
+                                    <div class="flex items-center">
+                                        <input type="checkbox" id="filter2" class="h-4 w-4 text-blue-600 rounded border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-600 transition duration-150">
+                                        <label for="filter2" class="ml-2.5 text-gray-700 dark:text-gray-300 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition duration-150">Filter 2</label>
+                                    </div>
+                                    <span class="text-gray-500 dark:text-gray-400 text-sm font-medium">4</span>
+                                </div>
+                                <div class="flex items-center justify-between group">
+                                    <div class="flex items-center">
+                                        <input type="checkbox" id="filter3" class="h-4 w-4 text-blue-600 rounded border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-600 transition duration-150">
+                                        <label for="filter3" class="ml-2.5 text-gray-700 dark:text-gray-300 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition duration-150">Filter 3</label>
+                                    </div>
+                                    <span class="text-gray-500 dark:text-gray-400 text-sm font-medium">6</span>
+                                </div>
+                            </div>
+
+                            <button class="mt-6 px-4 py-2 bg-gray-100 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 text-sm font-medium text-gray-700 dark:text-gray-300 rounded-lg transition duration-200 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                                </svg>
+                                Clear type
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Main Content -->
+                <div class="w-full lg:w-3/4">
+                    <h2 class="text-2xl font-bold text-gray-800 dark:text-gray-100 mb-6">Topics</h2>
+
+                    <!-- Grid of Cards -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-8">
+
+                        <!-- Card Template (Repeat for each card) -->
+                        <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm overflow-hidden transition-all duration-300 hover:shadow-md transform hover:-translate-y-1">
+                            <div class="p-4 bg-gray-50 dark:bg-gray-700 flex items-center justify-center">
+                                <div class="w-full h-36 flex items-center justify-center overflow-hidden">
+                                    <img src="/assets/homePageCardImage.png" alt="Coming Soon" class="object-contain w-full h-full">
+                                </div>
+                            </div>
+                            <div class="p-5">
+                                <div class="mb-3">
+                                    <a href="/pages/hot-topics/detailed-hot-topic.php" class="text-purple-600 dark:text-purple-400 text-xs font-semibold tracking-wide uppercase hover:text-purple-700 dark:hover:text-purple-300 transition duration-200">Report</a>
+                                </div>
+                                <h3 class="text-gray-900 dark:text-gray-100 font-medium text-lg mb-2 line-clamp-2 hover:text-blue-600 dark:hover:text-blue-400 transition duration-200">
+                                    <a href="./detailed-hot-topic.php">The State of U.S. Early-Stage Venture & Startups: 2Q23</a>
+                                </h3>
+                                <p class="text-gray-600 dark:text-gray-300 text-sm mb-4 line-clamp-3">AngelList and Brex proprietary data and analysis of early-stage venture and startup activity in 2Q23.</p>
+                                <a href="./detailed-hot-topic.php" class="text-blue-600 dark:text-blue-400 text-sm font-medium flex items-center group">
+                                    <span class="group-hover:mr-1 transition-all duration-200">Read the report</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1.5 group-hover:translate-x-1 transition-transform duration-200" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm overflow-hidden transition-all duration-300 hover:shadow-md transform hover:-translate-y-1">
+                            <div class="p-4 bg-gray-50 dark:bg-gray-700 flex items-center justify-center">
+                                <div class="w-full h-36 flex items-center justify-center overflow-hidden">
+                                    <img src="/assets/homePageCardImage.png" alt="Coming Soon" class="object-contain w-full h-full">
+                                </div>
+                            </div>
+                            <div class="p-5">
+                                <div class="mb-3">
+                                    <a href="./detailed-hot-topic.php" class="text-purple-600 dark:text-purple-400 text-xs font-semibold tracking-wide uppercase hover:text-purple-700 dark:hover:text-purple-300 transition duration-200">Report</a>
+                                </div>
+                                <h3 class="text-gray-900 dark:text-gray-100 font-medium text-lg mb-2 line-clamp-2 hover:text-blue-600 dark:hover:text-blue-400 transition duration-200">
+                                    <a href="./detailed-hot-topic.php">The State of U.S. Early-Stage Venture & Startups: 2Q23</a>
+                                </h3>
+                                <p class="text-gray-600 dark:text-gray-300 text-sm mb-4 line-clamp-3">AngelList and Brex proprietary data and analysis of early-stage venture and startup activity in 2Q23.</p>
+                                <a href="./detailed-hot-topic.php" class="text-blue-600 dark:text-blue-400 text-sm font-medium flex items-center group">
+                                    <span class="group-hover:mr-1 transition-all duration-200">Read the report</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1.5 group-hover:translate-x-1 transition-transform duration-200" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm overflow-hidden transition-all duration-300 hover:shadow-md transform hover:-translate-y-1">
+                            <div class="p-4 bg-gray-50 dark:bg-gray-700 flex items-center justify-center">
+                                <div class="w-full h-36 flex items-center justify-center overflow-hidden">
+                                    <img src="/assets/homePageCardImage.png" alt="Coming Soon" class="object-contain w-full h-full">
+                                </div>
+                            </div>
+                            <div class="p-5">
+                                <div class="mb-3">
+                                    <a href="./detailed-hot-topic.php" class="text-purple-600 dark:text-purple-400 text-xs font-semibold tracking-wide uppercase hover:text-purple-700 dark:hover:text-purple-300 transition duration-200">Report</a>
+                                </div>
+                                <h3 class="text-gray-900 dark:text-gray-100 font-medium text-lg mb-2 line-clamp-2 hover:text-blue-600 dark:hover:text-blue-400 transition duration-200">
+                                    <a href="./detailed-hot-topic.php">The State of U.S. Early-Stage Venture & Startups: 2Q23</a>
+                                </h3>
+                                <p class="text-gray-600 dark:text-gray-300 text-sm mb-4 line-clamp-3">AngelList and Brex proprietary data and analysis of early-stage venture and startup activity in 2Q23.</p>
+                                <a href="./detailed-hot-topic.php" class="text-blue-600 dark:text-blue-400 text-sm font-medium flex items-center group">
+                                    <span class="group-hover:mr-1 transition-all duration-200">Read the report</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1.5 group-hover:translate-x-1 transition-transform duration-200" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm overflow-hidden transition-all duration-300 hover:shadow-md transform hover:-translate-y-1">
+                            <div class="p-4 bg-gray-50 dark:bg-gray-700 flex items-center justify-center">
+                                <div class="w-full h-36 flex items-center justify-center overflow-hidden">
+                                    <img src="/assets/homePageCardImage.png" alt="Coming Soon" class="object-contain w-full h-full">
+                                </div>
+                            </div>
+                            <div class="p-5">
+                                <div class="mb-3">
+                                    <a href="./detailed-hot-topic.php" class="text-purple-600 dark:text-purple-400 text-xs font-semibold tracking-wide uppercase hover:text-purple-700 dark:hover:text-purple-300 transition duration-200">Report</a>
+                                </div>
+                                <h3 class="text-gray-900 dark:text-gray-100 font-medium text-lg mb-2 line-clamp-2 hover:text-blue-600 dark:hover:text-blue-400 transition duration-200">
+                                    <a href="./detailed-hot-topic.php">The State of U.S. Early-Stage Venture & Startups: 2Q23</a>
+                                </h3>
+                                <p class="text-gray-600 dark:text-gray-300 text-sm mb-4 line-clamp-3">AngelList and Brex proprietary data and analysis of early-stage venture and startup activity in 2Q23.</p>
+                                <a href="./detailed-hot-topic.php" class="text-blue-600 dark:text-blue-400 text-sm font-medium flex items-center group">
+                                    <span class="group-hover:mr-1 transition-all duration-200">Read the report</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1.5 group-hover:translate-x-1 transition-transform duration-200" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm overflow-hidden transition-all duration-300 hover:shadow-md transform hover:-translate-y-1">
+                            <div class="p-4 bg-gray-50 dark:bg-gray-700 flex items-center justify-center">
+                                <div class="w-full h-36 flex items-center justify-center overflow-hidden">
+                                    <img src="/assets/homePageCardImage.png" alt="Coming Soon" class="object-contain w-full h-full">
+                                </div>
+                            </div>
+                            <div class="p-5">
+                                <div class="mb-3">
+                                    <a href="./detailed-hot-topic.php" class="text-purple-600 dark:text-purple-400 text-xs font-semibold tracking-wide uppercase hover:text-purple-700 dark:hover:text-purple-300 transition duration-200">Report</a>
+                                </div>
+                                <h3 class="text-gray-900 dark:text-gray-100 font-medium text-lg mb-2 line-clamp-2 hover:text-blue-600 dark:hover:text-blue-400 transition duration-200">
+                                    <a href="./detailed-hot-topic.php">The State of U.S. Early-Stage Venture & Startups: 2Q23</a>
+                                </h3>
+                                <p class="text-gray-600 dark:text-gray-300 text-sm mb-4 line-clamp-3">AngelList and Brex proprietary data and analysis of early-stage venture and startup activity in 2Q23.</p>
+                                <a href="./detailed-hot-topic.php" class="text-blue-600 dark:text-blue-400 text-sm font-medium flex items-center group">
+                                    <span class="group-hover:mr-1 transition-all duration-200">Read the report</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1.5 group-hover:translate-x-1 transition-transform duration-200" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm overflow-hidden transition-all duration-300 hover:shadow-md transform hover:-translate-y-1">
+                            <div class="p-4 bg-gray-50 dark:bg-gray-700 flex items-center justify-center">
+                                <div class="w-full h-36 flex items-center justify-center overflow-hidden">
+                                    <img src="/assets/homePageCardImage.png" alt="Coming Soon" class="object-contain w-full h-full">
+                                </div>
+                            </div>
+                            <div class="p-5">
+                                <div class="mb-3">
+                                    <a href="./detailed-hot-topic.php" class="text-purple-600 dark:text-purple-400 text-xs font-semibold tracking-wide uppercase hover:text-purple-700 dark:hover:text-purple-300 transition duration-200">Report</a>
+                                </div>
+                                <h3 class="text-gray-900 dark:text-gray-100 font-medium text-lg mb-2 line-clamp-2 hover:text-blue-600 dark:hover:text-blue-400 transition duration-200">
+                                    <a href="./detailed-hot-topic.php">The State of U.S. Early-Stage Venture & Startups: 2Q23</a>
+                                </h3>
+                                <p class="text-gray-600 dark:text-gray-300 text-sm mb-4 line-clamp-3">AngelList and Brex proprietary data and analysis of early-stage venture and startup activity in 2Q23.</p>
+                                <a href="./detailed-hot-topic.php" class="text-blue-600 dark:text-blue-400 text-sm font-medium flex items-center group">
+                                    <span class="group-hover:mr-1 transition-all duration-200">Read the report</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1.5 group-hover:translate-x-1 transition-transform duration-200" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm overflow-hidden transition-all duration-300 hover:shadow-md transform hover:-translate-y-1">
+                            <div class="p-4 bg-gray-50 dark:bg-gray-700 flex items-center justify-center">
+                                <div class="w-full h-36 flex items-center justify-center overflow-hidden">
+                                    <img src="/assets/homePageCardImage.png" alt="Coming Soon" class="object-contain w-full h-full">
+                                </div>
+                            </div>
+                            <div class="p-5">
+                                <div class="mb-3">
+                                    <a href="./detailed-hot-topic.php" class="text-purple-600 dark:text-purple-400 text-xs font-semibold tracking-wide uppercase hover:text-purple-700 dark:hover:text-purple-300 transition duration-200">Report</a>
+                                </div>
+                                <h3 class="text-gray-900 dark:text-gray-100 font-medium text-lg mb-2 line-clamp-2 hover:text-blue-600 dark:hover:text-blue-400 transition duration-200">
+                                    <a href="./detailed-hot-topic.php">The State of U.S. Early-Stage Venture & Startups: 2Q23</a>
+                                </h3>
+                                <p class="text-gray-600 dark:text-gray-300 text-sm mb-4 line-clamp-3">AngelList and Brex proprietary data and analysis of early-stage venture and startup activity in 2Q23.</p>
+                                <a href="./detailed-hot-topic.php" class="text-blue-600 dark:text-blue-400 text-sm font-medium flex items-center group">
+                                    <span class="group-hover:mr-1 transition-all duration-200">Read the report</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1.5 group-hover:translate-x-1 transition-transform duration-200" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm overflow-hidden transition-all duration-300 hover:shadow-md transform hover:-translate-y-1">
+                            <div class="p-4 bg-gray-50 dark:bg-gray-700 flex items-center justify-center">
+                                <div class="w-full h-36 flex items-center justify-center overflow-hidden">
+                                    <img src="/assets/homePageCardImage.png" alt="Coming Soon" class="object-contain w-full h-full">
+                                </div>
+                            </div>
+                            <div class="p-5">
+                                <div class="mb-3">
+                                    <a href="./detailed-hot-topic.php" class="text-purple-600 dark:text-purple-400 text-xs font-semibold tracking-wide uppercase hover:text-purple-700 dark:hover:text-purple-300 transition duration-200">Report</a>
+                                </div>
+                                <h3 class="text-gray-900 dark:text-gray-100 font-medium text-lg mb-2 line-clamp-2 hover:text-blue-600 dark:hover:text-blue-400 transition duration-200">
+                                    <a href="./detailed-hot-topic.php">The State of U.S. Early-Stage Venture & Startups: 2Q23</a>
+                                </h3>
+                                <p class="text-gray-600 dark:text-gray-300 text-sm mb-4 line-clamp-3">AngelList and Brex proprietary data and analysis of early-stage venture and startup activity in 2Q23.</p>
+                                <a href="./detailed-hot-topic.php" class="text-blue-600 dark:text-blue-400 text-sm font-medium flex items-center group">
+                                    <span class="group-hover:mr-1 transition-all duration-200">Read the report</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1.5 group-hover:translate-x-1 transition-transform duration-200" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm overflow-hidden transition-all duration-300 hover:shadow-md transform hover:-translate-y-1">
+                            <div class="p-4 bg-gray-50 dark:bg-gray-700 flex items-center justify-center">
+                                <div class="w-full h-36 flex items-center justify-center overflow-hidden">
+                                    <img src="/assets/homePageCardImage.png" alt="Coming Soon" class="object-contain w-full h-full">
+                                </div>
+                            </div>
+                            <div class="p-5">
+                                <div class="mb-3">
+                                    <a href="./detailed-hot-topic.php" class="text-purple-600 dark:text-purple-400 text-xs font-semibold tracking-wide uppercase hover:text-purple-700 dark:hover:text-purple-300 transition duration-200">Report</a>
+                                </div>
+                                <h3 class="text-gray-900 dark:text-gray-100 font-medium text-lg mb-2 line-clamp-2 hover:text-blue-600 dark:hover:text-blue-400 transition duration-200">
+                                    <a href="./detailed-hot-topic.php">The State of U.S. Early-Stage Venture & Startups: 2Q23</a>
+                                </h3>
+                                <p class="text-gray-600 dark:text-gray-300 text-sm mb-4 line-clamp-3">AngelList and Brex proprietary data and analysis of early-stage venture and startup activity in 2Q23.</p>
+                                <a href="./detailed-hot-topic.php" class="text-blue-600 dark:text-blue-400 text-sm font-medium flex items-center group">
+                                    <span class="group-hover:mr-1 transition-all duration-200">Read the report</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1.5 group-hover:translate-x-1 transition-transform duration-200" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Repeat the card component for all 9 cards -->
+
+                    </div>
+
+                    <!-- Pagination (Optional) -->
+                    <div class="mt-12 flex justify-center">
+                        <nav class="flex items-center space-x-1" aria-label="Pagination">
+                            <a href="#" class="px-3 py-2 rounded-md text-sm font-medium text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700">
+                                Previous
+                            </a>
+                            <a href="#" class="px-3 py-2 rounded-md text-sm font-medium text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20">
+                                1
+                            </a>
+                            <a href="#" class="px-3 py-2 rounded-md text-sm font-medium text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700">
+                                2
+                            </a>
+                            <a href="#" class="px-3 py-2 rounded-md text-sm font-medium text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700">
+                                3
+                            </a>
+                            <span class="px-3 py-2 text-gray-500 dark:text-gray-400">...</span>
+                            <a href="#" class="px-3 py-2 rounded-md text-sm font-medium text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700">
+                                Next
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Include Footer -->
+    <?php include '../../components/footer.php'; ?>
+
+
+
+    <script src="../../js/theme.js"></script>
+    <script src="../../js/navbar.js"></script>
+</body>
+
+</html>

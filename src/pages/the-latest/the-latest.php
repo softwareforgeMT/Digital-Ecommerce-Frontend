@@ -8,19 +8,19 @@
     <link rel="stylesheet" href="/css/output.css">
 </head>
 
-<body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white">
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-300">
 
     <!-- Include Navbar -->
-    <?php include '../components/navbar.php'; ?>
+    <?php include '../../components/navbar.php'; ?>
 
     <!-- Banner Section -->
-    <section class="relative h-80 w-full bg-cover bg-center" style="background-image: url('../assets/homepagebg.jpg');">
+    <section class="relative h-80 w-full bg-cover bg-center" style="background-image: url('/assets/homepagebg.jpg');">
         <div class="absolute inset-0 bg-white dark:bg-black bg-opacity-50 dark:bg-opacity-50 flex flex-col justify-center items-center text-center">
             <h1 class="text-black dark:text-white text-3xl md:text-5xl font-bold tracking-wide">The Latest</h1>
             <!-- Breadcrumb -->
             <div class="container mx-auto px-4 md:px-8 py-4">
                 <nav class="text-sm text-gray-800 dark:text-gray-200">
-                    <a href="../index.php" class="hover:text-purple-600 font-bold">Home</a>
+                    <a href="/index.php" class="hover:text-purple-600 font-bold">Home</a>
                     <span class="mx-2">/</span>
                     <span class="text-gray-800 dark:text-gray-200 font-semibold">The Latest</span>
                 </nav>
@@ -106,7 +106,7 @@
 
                         <!-- Button with enhanced animation -->
                         <div class="flex justify-start mt-4">
-                            <a href="#" class="group flex items-center bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 dark:from-indigo-500 dark:to-purple-500 dark:hover:from-indigo-600 dark:hover:to-purple-600 text-white font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-indigo-500/30 dark:hover:shadow-indigo-500/50 transition-all duration-300 transform hover:-translate-y-1">
+                            <a href="/pages/the-latest/detailed-the-latest.php" class="group flex items-center bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 dark:from-indigo-500 dark:to-purple-500 dark:hover:from-indigo-600 dark:hover:to-purple-600 text-white font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-indigo-500/30 dark:hover:shadow-indigo-500/50 transition-all duration-300 transform hover:-translate-y-1">
                                 <span>Read more</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform duration-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <path d="M5 12h14"></path>
@@ -158,7 +158,7 @@
 
                         <!-- Button with enhanced animation -->
                         <div class="flex justify-start mt-4">
-                            <a href="#" class="group flex items-center bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 dark:from-indigo-500 dark:to-purple-500 dark:hover:from-indigo-600 dark:hover:to-purple-600 text-white font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-indigo-500/30 dark:hover:shadow-indigo-500/50 transition-all duration-300 transform hover:-translate-y-1">
+                            <a href="/pages/the-latest/detailed-the-latest.php" class="group flex items-center bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 dark:from-indigo-500 dark:to-purple-500 dark:hover:from-indigo-600 dark:hover:to-purple-600 text-white font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-indigo-500/30 dark:hover:shadow-indigo-500/50 transition-all duration-300 transform hover:-translate-y-1">
                                 <span>Read more</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform duration-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <path d="M5 12h14"></path>
@@ -210,7 +210,7 @@
 
                         <!-- Button with enhanced animation -->
                         <div class="flex justify-start mt-4">
-                            <a href="#" class="group flex items-center bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 dark:from-indigo-500 dark:to-purple-500 dark:hover:from-indigo-600 dark:hover:to-purple-600 text-white font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-indigo-500/30 dark:hover:shadow-indigo-500/50 transition-all duration-300 transform hover:-translate-y-1">
+                            <a href="/pages/the-latest/detailed-the-latest.php" class="group flex items-center bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 dark:from-indigo-500 dark:to-purple-500 dark:hover:from-indigo-600 dark:hover:to-purple-600 text-white font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-indigo-500/30 dark:hover:shadow-indigo-500/50 transition-all duration-300 transform hover:-translate-y-1">
                                 <span>Read more</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform duration-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <path d="M5 12h14"></path>
@@ -372,10 +372,10 @@
 
 
     <!-- Include Footer -->
-    <?php include '../components/footer.php'; ?>
+    <?php include '../../components/footer.php'; ?>
 
-    <script src="../js/theme.js"></script>
-    <script src="../js/navbar.js"></script>
+    <script src="/js/theme.js"></script>
+    <script src="/js/navbar.js"></script>
 </body>
 
 </html>
