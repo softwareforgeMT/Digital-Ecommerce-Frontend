@@ -140,6 +140,7 @@
               <p class="text-gray-600 dark:text-gray-300 text-sm mb-4"><?= $card['description'] ?></p>
               <div class="flex justify-between items-center">
                 <a href="/pages/the-latest/the-latest.php">
+                  <!-- button -->
                   <button class="bg-primary-gradient text-white px-4 py-2 rounded-lg flex items-center gap-2 hover:shadow-lg transition-all duration-300 group">
                     <span>Learn More</span>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">

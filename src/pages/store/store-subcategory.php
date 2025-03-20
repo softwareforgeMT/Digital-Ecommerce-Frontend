@@ -15,19 +15,19 @@
     <!-- Banner Section -->
     <section class="relative h-80 w-full bg-cover bg-center" style="background-image: url('../../assets/homepagebg.jpg');">
         <div class="absolute inset-0 bg-white dark:bg-black bg-opacity-50 dark:bg-opacity-50 flex flex-col justify-center items-center text-center">
-            <h1 class="text-black dark:text-white text-3xl md:text-5xl font-bold tracking-wide">Category</h1>
+            <h1 class="text-black dark:text-white text-3xl md:text-5xl font-bold tracking-wide">Store</h1>
             <!-- Breadcrumb -->
             <div class="container mx-auto px-4 md:px-8 py-4">
                 <nav class="text-sm text-gray-800 dark:text-gray-200">
                     <a href="/index.php" class="hover:text-purple-600 font-bold">Home</a>
                     <span class="mx-2">/</span>
-                    <span class="text-gray-800 dark:text-gray-200 font-semibold">Category</span>
+                    <span class="text-gray-800 dark:text-gray-200 font-semibold">Store</span>
                 </nav>
             </div>
             <!-- Search Bar -->
             <div class="container mx-auto px-4 md:px-8 mt-4 w-full max-w-lg">
                 <div class="relative">
-                    <input type="text" placeholder="Search categories..." class="w-full p-3 pl-4 pr-16 text-gray-900 dark:text-white bg-white dark:bg-gray-800 rounded-xl border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-purple-500 focus:outline-none">
+                    <input type="text" placeholder="Search sub-categories..." class="w-full p-3 pl-4 pr-16 text-gray-900 dark:text-white bg-white dark:bg-gray-800 rounded-xl border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-purple-500 focus:outline-none">
                     <button class="absolute right-1 top-1/2 transform -translate-y-1/2 bg-primary-gradient  text-white px-5 py-2 rounded-xl transition-all">
                         Search
                     </button>
@@ -35,7 +35,7 @@
             </div>
         </div>
     </section>
-
+    
     <!-- Main Section -->
     <section class="text-gray-900 dark:text-white transition-colors duration-300 py-4 md:py-16 lg:py-20 overflow-hidden">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
@@ -92,39 +92,23 @@
                         $cards = [
                             [
                                 'img' => '/assets/brandImage.png',
-                                'title' => 'Brand Name',
+                                'title' => 'Subcategory',
                             ],
                             [
                                 'img' => '/assets/brandImage.png',
-                                'title' => 'Brand Name',
+                                'title' => 'Subcategory',
                             ],
                             [
                                 'img' => '/assets/brandImage.png',
-                                'title' => 'Brand Name',
+                                'title' => 'Subcategory',
                             ],
                             [
                                 'img' => '/assets/brandImage.png',
-                                'title' => 'Brand Name',
+                                'title' => 'Subcategory',
                             ],
                             [
                                 'img' => '/assets/brandImage.png',
-                                'title' => 'Brand Name',
-                            ],
-                            [
-                                'img' => '/assets/brandImage.png',
-                                'title' => 'Brand Name',
-                            ],
-                            [
-                                'img' => '/assets/brandImage.png',
-                                'title' => 'Brand Name',
-                            ],
-                            [
-                                'img' => '/assets/brandImage.png',
-                                'title' => 'Brand Name',
-                            ],
-                            [
-                                'img' => '/assets/brandImage.png',
-                                'title' => 'Brand Name',
+                                'title' => 'Subcategory',
                             ],
 
                         ];
@@ -139,7 +123,7 @@
                                 <div class="p-5">
 
                                     <h3 class="text-center text-gray-900 dark:text-gray-100 font-medium text-lg mb-2 line-clamp-2 hover:text-blue-600 dark:hover:text-blue-400 transition duration-200">
-                                        <a href="#"><?php echo $card['title']; ?></a>
+                                        <a href="/pages/store/detailed-store.php"><?php echo $card['title']; ?></a>
                                     </h3>
 
                                 </div>

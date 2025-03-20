@@ -5,7 +5,7 @@
       <div class="flex items-center justify-between">
         <!-- Logo -->
         <div class="flex items-center">
-          <a href="#" class="flex items-center">
+          <a href="/" class="flex items-center">
             <img
               src="/assets/logo.png"
               alt="Computer Nostalgia Logo"
@@ -22,7 +22,7 @@
             href="/pages/the-news/the-news.php"
             class="text-gray-800 dark:text-gray-300 font-medium text-sm lg:text-base">News</a>
           <a
-            href="#"
+            href="/pages/store/store.php"
             class="text-gray-800 dark:text-gray-300 font-medium text-sm lg:text-base">Store</a>
           <a
             href="#"
@@ -131,7 +131,7 @@
           class="flex flex-col space-y-4 py-4 px-2 border-t border-gray-200 dark:border-gray-700">
           <a href="/" class="text-purple-600 font-medium dark:text-purple-400">Home</a>
           <a href="/pages/the-news/the-news.php" class="text-gray-800 dark:text-gray-300 font-medium">News</a>
-          <a href="#" class="text-gray-800 dark:text-gray-300 font-medium">Store</a>
+          <a href="/pages/store/store.php" class="text-gray-800 dark:text-gray-300 font-medium">Store</a>
           <a href="#" class="text-gray-800 dark:text-gray-300 font-medium">NostalgiaBase</a>
           <a href="#" class="text-gray-800 dark:text-gray-300 font-medium">Services</a>
           <a href="#" class="text-gray-800 dark:text-gray-300 font-medium">Bit Logs</a>
