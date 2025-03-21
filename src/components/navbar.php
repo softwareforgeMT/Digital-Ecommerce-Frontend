@@ -25,7 +25,7 @@
           href="/pages/store/store.php"
           class="text-gray-800 dark:text-gray-300 font-medium text-sm lg:text-base">Store</a>
         <a
-          href="#"
+          href="/pages/nostalgia-base/nostalgia-base.php"
           class="text-gray-800 dark:text-gray-300 font-medium text-sm lg:text-base">NostalgiaBase</a>
         <a
           href="#"
@@ -162,7 +162,7 @@
                     <a href="/pages/cart/cart.php" class="flex justify-center col-span-1 text-center bg-gray-100 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 text-gray-800 dark:text-white font-medium py-2 px-4 rounded-lg transition-colors">
                       Cart
                     </a>
-                    <a href="/checkout" class="flex justify-center col-span-1 text-center bg-gray-800 hover:bg-gray-700 dark:bg-gray-600 dark:hover:bg-gray-500 text-white font-medium py-2 px-4 rounded-lg transition-colors">
+                    <a href="/pages/checkout/checkout.php" class="flex justify-center col-span-1 text-center bg-gray-800 hover:bg-gray-700 dark:bg-gray-600 dark:hover:bg-gray-500 text-white font-medium py-2 px-4 rounded-lg transition-colors">
                       Checkout
                     </a>
                     <a href="/comparison" class="flex justify-center col-span-1 text-center bg-gray-100 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 text-gray-800 dark:text-white font-medium py-2 px-4 rounded-lg transition-colors">
@@ -212,7 +212,7 @@
         <a href="/" class="text-purple-600 font-medium dark:text-purple-400">Home</a>
         <a href="/pages/the-news/the-news.php" class="text-gray-800 dark:text-gray-300 font-medium">News</a>
         <a href="/pages/store/store.php" class="text-gray-800 dark:text-gray-300 font-medium">Store</a>
-        <a href="#" class="text-gray-800 dark:text-gray-300 font-medium">NostalgiaBase</a>
+        <a href="/pages/nostalgia-base/nostalgia-base.php" class="text-gray-800 dark:text-gray-300 font-medium">NostalgiaBase</a>
         <a href="#" class="text-gray-800 dark:text-gray-300 font-medium">Services</a>
         <a href="#" class="text-gray-800 dark:text-gray-300 font-medium">Bit Logs</a>
 
