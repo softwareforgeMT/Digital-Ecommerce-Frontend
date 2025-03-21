@@ -114,23 +114,23 @@
     <section class="container mx-auto px-4 py-8">
         <div class="max-w-6xl mx-auto">
             <!-- Header -->
-           <!-- Header -->
-<div class="flex flex-col sm:flex-row justify-between items-center text-center sm:text-left gap-4 mb-2">
-    <!-- Heading (Centered on Small, Left on Large) -->
-    <div class="w-full sm:w-auto">
-        <h1 class="text-2xl font-bold dark:text-white">Bit Logs</h1>
-    </div>
+            <!-- Header -->
+            <div class="flex flex-col sm:flex-row justify-between items-center text-center sm:text-left gap-4 mb-2">
+                <!-- Heading (Centered on Small, Left on Large) -->
+                <div class="w-full sm:w-auto">
+                    <h1 class="text-2xl font-bold dark:text-white">Bit Logs</h1>
+                </div>
 
-    <!-- Action Buttons (Right on Large Screens) -->
-    <div class="flex flex-col sm:flex-row sm:justify-end w-full sm:w-auto gap-4">
-        <button id="openBitSchemeModal" class="w-full sm:w-40 bg-primary-gradient text-white px-4 py-2 rounded-lg flex items-center justify-center gap-2 hover:shadow-lg transition-all duration-300">
-            Bit Scheme
-        </button>
-        <button id="openEarnBitModal" class="w-full sm:w-40 bg-primary-gradient text-white px-4 py-2 rounded-lg flex items-center justify-center gap-2 hover:shadow-lg transition-all duration-300">
-            Earn Bit
-        </button>
-    </div>
-</div>
+                <!-- Action Buttons (Right on Large Screens) -->
+                <div class="flex flex-col sm:flex-row sm:justify-end w-full sm:w-auto gap-4">
+                    <button id="openBitSchemeModal" class="w-full sm:w-40 bg-primary-gradient text-white px-4 py-2 rounded-lg flex items-center justify-center gap-2 hover:shadow-lg transition-all duration-300">
+                        Bit Scheme
+                    </button>
+                    <button id="openEarnBitModal" class="w-full sm:w-40 bg-primary-gradient text-white px-4 py-2 rounded-lg flex items-center justify-center gap-2 hover:shadow-lg transition-all duration-300">
+                        Earn Bit
+                    </button>
+                </div>
+            </div>
 
 
 
