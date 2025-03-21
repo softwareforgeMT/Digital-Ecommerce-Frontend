@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Latest Addition</title>
     <link rel="stylesheet" href="/css/output.css">
 </head>
+
 <body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-300">
     <!-- Include Navbar -->
     <?php include '../../components/navbar.php'; ?>
@@ -116,47 +118,38 @@
                             [
                                 'img' => 'https://images.unsplash.com/photo-1593118247619-e2d6f056869e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                                 'title' => 'The State of U.S. Early-Stage Venture & Startups: 2Q23',
-                                'description' => 'AngelList and Brex proprietary data and analysis of early-stage venture and startup activity in 2Q23.'
                             ],
                             [
                                 'img' => 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                                 'title' => 'The State of U.S. Early-Stage Venture & Startups: 2Q23',
-                                'description' => 'AngelList and Brex proprietary data and analysis of early-stage venture and startup activity in 2Q23.'
                             ],
                             [
                                 'img' => 'https://images.unsplash.com/photo-1590845947376-2638caa89309?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                                 'title' => 'The State of U.S. Early-Stage Venture & Startups: 2Q23',
-                                'description' => 'AngelList and Brex proprietary data and analysis of early-stage venture and startup activity in 2Q23.'
                             ],
                             [
                                 'img' => 'https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                                 'title' => 'The State of U.S. Early-Stage Venture & Startups: 2Q23',
-                                'description' => 'AngelList and Brex proprietary data and analysis of early-stage venture and startup activity in 2Q23.'
                             ],
                             [
                                 'img' => 'https://images.unsplash.com/photo-1672906674630-67866460f965?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                                 'title' => 'The State of U.S. Early-Stage Venture & Startups: 2Q23',
-                                'description' => 'AngelList and Brex proprietary data and analysis of early-stage venture and startup activity in 2Q23.'
                             ],
                             [
                                 'img' => 'https://images.unsplash.com/photo-1580327344181-c1163234e5a0?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                                 'title' => 'The State of U.S. Early-Stage Venture & Startups: 2Q23',
-                                'description' => 'AngelList and Brex proprietary data and analysis of early-stage venture and startup activity in 2Q23.'
                             ],
                             [
                                 'img' => 'https://images.unsplash.com/photo-1564216329574-c839d4eedb1b?q=80&w=1944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                                 'title' => 'The State of U.S. Early-Stage Venture & Startups: 2Q23',
-                                'description' => 'AngelList and Brex proprietary data and analysis of early-stage venture and startup activity in 2Q23.'
                             ],
                             [
                                 'img' => 'https://images.unsplash.com/photo-1551033541-2075d8363c66?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                                 'title' => 'The State of U.S. Early-Stage Venture & Startups: 2Q23',
-                                'description' => 'AngelList and Brex proprietary data and analysis of early-stage venture and startup activity in 2Q23.'
                             ],
                             [
                                 'img' => 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                                 'title' => 'The State of U.S. Early-Stage Venture & Startups: 2Q23',
-                                'description' => 'AngelList and Brex proprietary data and analysis of early-stage venture and startup activity in 2Q23.'
                             ],
 
 
@@ -170,19 +163,10 @@
                                     </div>
                                 </div>
                                 <div class="p-5">
-                                    <div class="mb-3">
-                                        <a href="/pages/hot-topics/detailed-hot-topic.php" class="text-purple-600 dark:text-purple-400 text-xs font-semibold tracking-wide uppercase hover:text-purple-700 dark:hover:text-purple-300 transition duration-200">Report</a>
-                                    </div>
                                     <h3 class="text-gray-900 dark:text-gray-100 font-medium text-lg mb-2 line-clamp-2 hover:text-blue-600 dark:hover:text-blue-400 transition duration-200">
-                                        <a href="./detailed-hot-topic.php"><?php echo $card['title']; ?></a>
+                                        <a href="#"><?php echo $card['title']; ?></a>
                                     </h3>
-                                    <p class="text-gray-600 dark:text-gray-300 text-sm mb-4 line-clamp-3"><?php echo $card['description']; ?></p>
-                                    <a href="./detailed-hot-topic.php" class="text-blue-600 dark:text-blue-400 text-sm font-medium flex items-center group">
-                                        <span class="group-hover:mr-1 transition-all duration-200">Read the report</span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1.5 group-hover:translate-x-1 transition-transform duration-200" viewBox="0 0 20 20" fill="currentColor">
-                                            <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
-                                        </svg>
-                                    </a>
+
                                 </div>
                             </div>
                         <?php endforeach; ?>
@@ -213,4 +197,5 @@
     <script src="../../js/theme.js"></script>
     <script src="../../js/navbar.js"></script>
 </body>
+
 </html>
