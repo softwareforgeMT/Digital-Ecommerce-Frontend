@@ -164,7 +164,7 @@
                                 </div>
                                 <div class="p-5">
                                     <h3 class="text-gray-900 dark:text-gray-100 font-medium text-lg mb-2 line-clamp-2 hover:text-blue-600 dark:hover:text-blue-400 transition duration-200">
-                                        <a href="#"><?php echo $card['title']; ?></a>
+                                        <a href="/pages/nostalgia-base/detailed-nostalgia-base.php"><?php echo $card['title']; ?></a>
                                     </h3>
 
                                 </div>

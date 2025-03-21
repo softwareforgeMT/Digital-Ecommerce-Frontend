@@ -28,7 +28,7 @@
           href="/pages/nostalgia-base/nostalgia-base.php"
           class="text-gray-800 dark:text-gray-300 font-medium text-sm lg:text-base">NostalgiaBase</a>
         <a
-          href="#"
+          href="/pages/services/services.php"
           class="text-gray-800 dark:text-gray-300 font-medium text-sm lg:text-base">Services</a>
         <a
           href="#"
@@ -213,7 +213,7 @@
         <a href="/pages/the-news/the-news.php" class="text-gray-800 dark:text-gray-300 font-medium">News</a>
         <a href="/pages/store/store.php" class="text-gray-800 dark:text-gray-300 font-medium">Store</a>
         <a href="/pages/nostalgia-base/nostalgia-base.php" class="text-gray-800 dark:text-gray-300 font-medium">NostalgiaBase</a>
-        <a href="#" class="text-gray-800 dark:text-gray-300 font-medium">Services</a>
+        <a href="/pages/services/services.php" class="text-gray-800 dark:text-gray-300 font-medium">Services</a>
         <a href="#" class="text-gray-800 dark:text-gray-300 font-medium">Bit Logs</a>
 
         <!-- Mobile - Cart Icon and Login Button -->
