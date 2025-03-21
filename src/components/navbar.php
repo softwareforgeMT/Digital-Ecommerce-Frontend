@@ -31,7 +31,7 @@
           href="/pages/services/services.php"
           class="text-gray-800 dark:text-gray-300 font-medium text-sm lg:text-base">Services</a>
         <a
-          href="#"
+          href="/pages/bit-logs/bit-logs.php"
           class="text-gray-800 dark:text-gray-300 font-medium text-sm lg:text-base">Bit Logs</a>
       </div>
 
@@ -214,7 +214,7 @@
         <a href="/pages/store/store.php" class="text-gray-800 dark:text-gray-300 font-medium">Store</a>
         <a href="/pages/nostalgia-base/nostalgia-base.php" class="text-gray-800 dark:text-gray-300 font-medium">NostalgiaBase</a>
         <a href="/pages/services/services.php" class="text-gray-800 dark:text-gray-300 font-medium">Services</a>
-        <a href="#" class="text-gray-800 dark:text-gray-300 font-medium">Bit Logs</a>
+        <a href="/pages/bit-logs/bit-logs.php" class="text-gray-800 dark:text-gray-300 font-medium">Bit Logs</a>
 
         <!-- Mobile - Cart Icon and Login Button -->
         <div
