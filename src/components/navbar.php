@@ -177,7 +177,7 @@
           <!-- dropdown script page k end p hy -->
 
           <a
-            href="#"
+            href="/pages/auth/login/login.php"
             class="bg-primary-gradient hover:opacity-80 text-white px-4 lg:px-6 py-1 lg:py-2 rounded-xl font-medium transition-opacity duration-300">
             <button class="w-16 lg:w-[96px] text-sm lg:text-base">
               Login
@@ -238,14 +238,10 @@
           </a>
 
           <a
-            href="#"
+            href="/pages/auth/login/login.php"
             class="bg-primary-gradient hover:opacity-80 text-white px-4 py-2 rounded-xl font-medium transition-opacity duration-300">
             <button class="w-16">Login</button>
           </a>
-
-          <!-- <button id="mobile-theme-toggle" class="p-1 rounded-md">
-              <img id="mobile-theme-icon" src="../assets/togglingIcon.png" alt="Theme Toggle" class="w-5 h-5 transition-all duration-300 dark:invert" />
-            </button> -->
         </div>
       </div>
     </div>
