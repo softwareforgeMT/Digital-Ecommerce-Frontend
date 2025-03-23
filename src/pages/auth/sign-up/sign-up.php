@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up</title>
-    <link rel="stylesheet" href="/css/output.css">
+    <link rel="stylesheet" href="../../../css/output.css">
 </head>
 
 <body class="bg-white font-sans">
@@ -14,13 +14,13 @@
         <div class="hidden md:flex md:w-1/2 bg-white p-8 flex-col items-center justify-center relative">
             <div class="text-center mb-8">
                 <div class="flex justify-center mb-4">
-                    <img src="/assets/logo.png" alt="Computer Heaven Logo" class="w-16 h-16">
+                    <img src="../../../assets/logo.png" alt="Computer Heaven Logo" class="w-16 h-16">
                 </div>
                 <p class="text-gray-600 max-w-md mx-auto">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit suspendisse.
                 </p>
             </div>
-            <img src="/assets/authImg.png" alt="">
+            <img src="../../../assets/authImg.png" alt="">
         </div>
 
         <div class="w-[2px] h-auto md:h-screen bg-gray-300"></div>
@@ -105,7 +105,7 @@
 
                     <!-- Sign In Link -->
                     <div class="text-center text-gray-500">
-                        Already have an account? <a href="/pages/auth/login/login.php" class="text-blue-600 font-medium">Sign In</a>
+                        Already have an account? <a href="../login/login.php" class="text-blue-600 font-medium">Sign In</a>
                     </div>
                 </form>
             </div>

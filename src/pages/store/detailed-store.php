@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detailed Store</title>
-    <link rel="stylesheet" href="/css/output.css">
+    <link rel="stylesheet" href="../../css/output.css">
 </head>
 
 <body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-300">
@@ -19,7 +19,7 @@
             <!-- Breadcrumb -->
             <div class="container mx-auto px-4 md:px-8 py-4">
                 <nav class="text-sm text-gray-800 dark:text-gray-200">
-                    <a href="/index.php" class="hover:text-purple-600 font-bold">Home</a>
+                    <a href="/" class="hover:text-purple-600 font-bold">Home</a>
                     <span class="mx-2">/</span>
                     <span class="text-gray-800 dark:text-gray-200 font-semibold">Store</span>
                 </nav>
@@ -243,7 +243,7 @@
                                     </button>
                                 </a>
                                 <!-- button -->
-                                <a href="/pages/store/detailed-product.php" class="mb-6 w-full">
+                                <a href="./detailed-product.php" class="mb-6 w-full">
                                     <button class="w-full bg-white text-purple-800 hover:bg-purple-100 py-3 rounded-xl font-bold shadow-lg transition-all duration-300 flex items-center justify-center space-x-2">
                                         <!-- New Relevant SVG (Document Icon for Product Details) -->
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">

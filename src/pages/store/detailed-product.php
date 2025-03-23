@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detailed Product</title>
-    <link rel="stylesheet" href="/css/output.css">
+    <link rel="stylesheet" href="../../css/output.css">
 </head>
 
 <body>
@@ -17,7 +17,7 @@
         <div class="container mx-auto px-4 max-w-7xl">
             <!-- Breadcrumb Navigation -->
             <div class="flex items-center text-sm mb-8 bg-white dark:bg-gray-800 px-4 py-2 rounded-lg shadow-sm">
-                <a href="#" class="text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-200 font-medium">Home</a>
+                <a href="/" class="text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-200 font-medium">Home</a>
                 <span class="mx-2 text-gray-400 dark:text-gray-500">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />

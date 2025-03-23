@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The News</title>
-    <link rel="stylesheet" href="/css/output.css">
+    <link rel="stylesheet" href="../../css/output.css">
 
 </head>
 
@@ -14,13 +14,13 @@
     <?php include '../../components/navbar.php'; ?>
 
     <!-- Banner Section -->
-    <section class="relative h-80 w-full bg-cover bg-center" style="background-image: url('/assets/homepagebg.jpg');">
+    <section class="relative h-80 w-full bg-cover bg-center" style="background-image: url('../../assets/homepagebg.jpg');">
         <div class="absolute inset-0 bg-white dark:bg-black bg-opacity-50 dark:bg-opacity-50 flex flex-col justify-center items-center text-center">
             <h1 class="text-black dark:text-white text-3xl md:text-5xl font-bold tracking-wide">News</h1>
             <!-- Breadcrumb -->
             <div class="container mx-auto px-4 md:px-8 py-4">
                 <nav class="text-sm text-gray-800 dark:text-gray-200">
-                    <a href="/index.php" class="hover:text-purple-600 font-bold">Home</a>
+                    <a href="/" class="hover:text-purple-600 font-bold">Home</a>
                     <span class="mx-2">/</span>
                     <span class="text-gray-800 dark:text-gray-200 font-semibold">News</span>
                 </nav>
@@ -186,7 +186,7 @@
                     ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.
                 </p>
 
-                <a href="/pages/the-news/detailed-news.php" class="group inline-flex items-center text-primary font-medium">
+                <a href="./detailed-news.php" class="group inline-flex items-center text-primary font-medium">
                     Read more
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 mt-1 group-hover:translate-x-2 transition duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -235,7 +235,7 @@
                     ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.
                 </p>
 
-                <a href="/pages/the-news/detailed-news.php" class="group inline-flex items-center text-primary font-medium">
+                <a href="./detailed-news.php" class="group inline-flex items-center text-primary font-medium">
                     Read more
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 mt-1 group-hover:translate-x-2 transition duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -284,7 +284,7 @@
                     ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.
                 </p>
 
-                <a href="/pages/the-news/detailed-news.php" class="group inline-flex items-center text-primary font-medium">
+                <a href="./detailed-news.php" class="group inline-flex items-center text-primary font-medium">
                     Read more
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 mt-1 group-hover:translate-x-2 transition duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -376,8 +376,8 @@
     <!-- Include Footer -->
     <?php include '../../components/footer.php'; ?>
 
-    <script src="/js/theme.js"></script>
-    <script src="/js/navbar.js"></script>
+    <script src="../../js/theme.js"></script>
+    <script src="../../js/navbar.js"></script>
 </body>
 
 </html>

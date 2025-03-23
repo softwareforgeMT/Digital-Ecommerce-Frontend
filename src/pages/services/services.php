@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services</title>
-    <link rel="stylesheet" href="/css/output.css">
+    <link rel="stylesheet" href="../../css/output.css">
 </head>
 
 <body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-300">
@@ -13,13 +13,13 @@
     <?php include '../../components/navbar.php'; ?>
 
     <!-- Banner Section -->
-    <section class="relative h-80 w-full bg-cover bg-center" style="background-image: url('/assets/homepagebg.jpg');">
+    <section class="relative h-80 w-full bg-cover bg-center" style="background-image: url('../../assets/homepagebg.jpg');">
         <div class="absolute inset-0 bg-white dark:bg-black bg-opacity-50 dark:bg-opacity-50 flex flex-col justify-center items-center text-center">
             <h1 class="text-black dark:text-white text-3xl md:text-5xl font-bold tracking-wide">Services</h1>
             <!-- Breadcrumb -->
             <div class="container mx-auto px-4 md:px-8 py-4">
                 <nav class="text-sm text-gray-800 dark:text-gray-200">
-                    <a href="/index.php" class="hover:text-purple-600 font-bold">Home</a>
+                    <a href="/" class="hover:text-purple-600 font-bold">Home</a>
                     <span class="mx-2">/</span>
                     <span class="text-gray-800 dark:text-gray-200 font-semibold">Services</span>
                 </nav>
@@ -85,7 +85,7 @@
                                     <a href="#"><?php echo $card['title']; ?></a>
                                 </h3>
                                 <p class="text-gray-600 dark:text-gray-300 text-sm mb-4 line-clamp-3"><?php echo $card['description']; ?></p>
-                                <a href="/pages/services/detailed-service.php">
+                                <a href="./detailed-service.php">
                                     <!-- button -->
                                     <button class="mx-auto bg-primary-gradient text-white px-4 py-2 rounded-lg flex items-center gap-2 hover:shadow-lg transition-all duration-300 group">
                                         <span>Services Details</span>

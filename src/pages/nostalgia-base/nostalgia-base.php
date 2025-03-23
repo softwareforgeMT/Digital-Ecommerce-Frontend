@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nostalgia-Base</title>
-    <link rel="stylesheet" href="/css/output.css">
+    <link rel="stylesheet" href="../../css/output.css">
 </head>
 
 <body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-300">
@@ -22,7 +22,7 @@
             <!-- Breadcrumb -->
             <div class="container mx-auto px-4 md:px-8 py-4">
                 <nav class="text-sm text-gray-800 dark:text-gray-200">
-                    <a href="/index.php" class="hover:text-purple-600 font-bold">Home</a>
+                    <a href="/" class="hover:text-purple-600 font-bold">Home</a>
                     <span class="mx-2">/</span>
                     <span class="text-gray-800 dark:text-gray-200 font-semibold">
                         Category
@@ -44,7 +44,7 @@
 
                     <!-- buttons -->
                     <div class="flex flex-wrap gap-10 justify-center ">
-                        <a href="/pages/nostalgia-base/add-console.php" class="w-full md:w-auto">
+                        <a href="./add-console.php" class="w-full md:w-auto">
                             <button class="w-full sm:w-auto px-6 py-2 bg-gray-200 dark:bg-gray-600 rounded-md transition hover:bg-gray-300 dark:hover:bg-gray-700">
                                 Add Console
                             </button>
@@ -67,15 +67,15 @@
                         <div class="space-y-10">
                             <?php
                             $cards = [
-                                ['img' => '/assets/brandImage.png', 'title' => 'Mobile Brand 1'],
-                                ['img' => '/assets/brandImage.png', 'title' => 'Mobile Brand 2'],
-                                ['img' => '/assets/brandImage.png', 'title' => 'Mobile Brand 3'],
-                                ['img' => '/assets/brandImage.png', 'title' => 'PC Brand 1'],
-                                ['img' => '/assets/brandImage.png', 'title' => 'PC Brand 2'],
-                                ['img' => '/assets/brandImage.png', 'title' => 'PC Brand 3'],
-                                ['img' => '/assets/brandImage.png', 'title' => 'Console Brand 1'],
-                                ['img' => '/assets/brandImage.png', 'title' => 'Console Brand 2'],
-                                ['img' => '/assets/brandImage.png', 'title' => 'Console Brand 3'],
+                                ['img' => '../../assets/brandImage.png', 'title' => 'Mobile Brand 1'],
+                                ['img' => '../../assets/brandImage.png', 'title' => 'Mobile Brand 2'],
+                                ['img' => '../../assets/brandImage.png', 'title' => 'Mobile Brand 3'],
+                                ['img' => '../../assets/brandImage.png', 'title' => 'PC Brand 1'],
+                                ['img' => '../../assets/brandImage.png', 'title' => 'PC Brand 2'],
+                                ['img' => '../../assets/brandImage.png', 'title' => 'PC Brand 3'],
+                                ['img' => '../../assets/brandImage.png', 'title' => 'Console Brand 1'],
+                                ['img' => '../../assets/brandImage.png', 'title' => 'Console Brand 2'],
+                                ['img' => '../../assets/brandImage.png', 'title' => 'Console Brand 3'],
                             ];
 
                             $categories = [
@@ -100,7 +100,7 @@
                                                 </div>
                                                 <div class="p-5">
                                                     <h3 class="text-center text-gray-900 dark:text-gray-100 font-medium text-lg mb-2 line-clamp-2 hover:text-blue-600 dark:hover:text-blue-400 transition duration-200">
-                                                        <a href="/pages/nostalgia-base/nostalgia-base-sub-category.php"><?php echo $card['title']; ?></a>
+                                                        <a href="./nostalgia-base-sub-category.php"><?php echo $card['title']; ?></a>
                                                     </h3>
                                                 </div>
                                             </div>

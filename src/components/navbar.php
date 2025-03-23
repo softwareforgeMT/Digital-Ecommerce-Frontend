@@ -7,7 +7,7 @@
       <div class="flex items-center">
         <a href="/" class="flex items-center">
           <img
-            src="/assets/logo.png"
+            src="/src/assets/logo.png"
             alt="Computer Nostalgia Logo"
             class="h-10 md:h-14" />
         </a>
@@ -19,19 +19,19 @@
           href="/"
           class="text-gray-800 dark:text-gray-300 font-medium text-sm lg:text-base">Home</a>
         <a
-          href="/pages/the-news/the-news.php"
+          href="/src/pages/the-news/the-news.php"
           class="text-gray-800 dark:text-gray-300 font-medium text-sm lg:text-base">News</a>
         <a
-          href="/pages/store/store.php"
+          href="/src/pages/store/store.php"
           class="text-gray-800 dark:text-gray-300 font-medium text-sm lg:text-base">Store</a>
         <a
-          href="/pages/nostalgia-base/nostalgia-base.php"
+          href="/src/pages/nostalgia-base/nostalgia-base.php"
           class="text-gray-800 dark:text-gray-300 font-medium text-sm lg:text-base">NostalgiaBase</a>
         <a
-          href="/pages/services/services.php"
+          href="/src/pages/services/services.php"
           class="text-gray-800 dark:text-gray-300 font-medium text-sm lg:text-base">Services</a>
         <a
-          href="/pages/bit-logs/bit-logs.php"
+          href="/src/pages/bit-logs/bit-logs.php"
           class="text-gray-800 dark:text-gray-300 font-medium text-sm lg:text-base">Bit Logs</a>
       </div>
 
@@ -72,7 +72,7 @@
         <button id="theme-toggle" class="p-1 md:p-2 rounded-md">
           <img
             id="theme-icon"
-            src="/assets/togglingIcon.png"
+            src="/src/assets/togglingIcon.png"
             alt="Theme Toggle"
             class="w-5 h-5 md:w-6 md:h-6 transition-all duration-300 dark:invert" />
         </button>
@@ -159,13 +159,13 @@
                   </div>
 
                   <div class="grid grid-cols-3 gap-3">
-                    <a href="/pages/cart/cart.php" class="flex justify-center col-span-1 text-center bg-gray-100 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 text-gray-800 dark:text-white font-medium py-2 px-4 rounded-lg transition-colors">
+                    <a href="/src/pages/cart/cart.php" class="flex justify-center col-span-1 text-center bg-gray-100 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 text-gray-800 dark:text-white font-medium py-2 px-4 rounded-lg transition-colors">
                       Cart
                     </a>
-                    <a href="/pages/checkout/checkout.php" class="flex justify-center col-span-1 text-center bg-gray-800 hover:bg-gray-700 dark:bg-gray-600 dark:hover:bg-gray-500 text-white font-medium py-2 px-4 rounded-lg transition-colors">
+                    <a href="/src/pages/checkout/checkout.php" class="flex justify-center col-span-1 text-center bg-gray-800 hover:bg-gray-700 dark:bg-gray-600 dark:hover:bg-gray-500 text-white font-medium py-2 px-4 rounded-lg transition-colors">
                       Checkout
                     </a>
-                    <a href="/comparison" class="flex justify-center col-span-1 text-center bg-gray-100 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 text-gray-800 dark:text-white font-medium py-2 px-4 rounded-lg transition-colors">
+                    <a href="#" class="flex justify-center col-span-1 text-center bg-gray-100 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 text-gray-800 dark:text-white font-medium py-2 px-4 rounded-lg transition-colors">
                       Compare
                     </a>
                   </div>
@@ -177,7 +177,7 @@
           <!-- dropdown script page k end p hy -->
 
           <a
-            href="/pages/auth/login/login.php"
+            href="/src/pages/auth/login/login.php"
             class="bg-primary-gradient hover:opacity-80 text-white px-4 lg:px-6 py-1 lg:py-2 rounded-xl font-medium transition-opacity duration-300">
             <button class="w-16 lg:w-[96px] text-sm lg:text-base">
               Login
@@ -210,16 +210,16 @@
       <div
         class="flex flex-col space-y-4 py-4 px-2 border-t border-gray-200 dark:border-gray-700">
         <a href="/" class="text-purple-600 font-medium dark:text-purple-400">Home</a>
-        <a href="/pages/the-news/the-news.php" class="text-gray-800 dark:text-gray-300 font-medium">News</a>
-        <a href="/pages/store/store.php" class="text-gray-800 dark:text-gray-300 font-medium">Store</a>
-        <a href="/pages/nostalgia-base/nostalgia-base.php" class="text-gray-800 dark:text-gray-300 font-medium">NostalgiaBase</a>
-        <a href="/pages/services/services.php" class="text-gray-800 dark:text-gray-300 font-medium">Services</a>
-        <a href="/pages/bit-logs/bit-logs.php" class="text-gray-800 dark:text-gray-300 font-medium">Bit Logs</a>
+        <a href="/src/pages/the-news/the-news.php" class="text-gray-800 dark:text-gray-300 font-medium">News</a>
+        <a href="/src/pages/store/store.php" class="text-gray-800 dark:text-gray-300 font-medium">Store</a>
+        <a href="/src/pages/nostalgia-base/nostalgia-base.php" class="text-gray-800 dark:text-gray-300 font-medium">NostalgiaBase</a>
+        <a href="/src/pages/services/services.php" class="text-gray-800 dark:text-gray-300 font-medium">Services</a>
+        <a href="/src/pages/bit-logs/bit-logs.php" class="text-gray-800 dark:text-gray-300 font-medium">Bit Logs</a>
 
         <!-- Mobile - Cart Icon and Login Button -->
         <div
           class="flex items-center justify-between pt-4 border-t border-gray-200 dark:border-gray-700">
-          <a href="/pages/cart/cart.php" class="text-gray-800 dark:text-white">
+          <a href="/src/pages/cart/cart.php" class="text-gray-800 dark:text-white">
             <!-- Cart Icon -->
             <div class="flex items-center">
               <svg
@@ -238,7 +238,7 @@
           </a>
 
           <a
-            href="/pages/auth/login/login.php"
+            href="/src/pages/auth/login/login.php"
             class="bg-primary-gradient hover:opacity-80 text-white px-4 py-2 rounded-xl font-medium transition-opacity duration-300">
             <button class="w-16">Login</button>
           </a>
@@ -248,4 +248,4 @@
   </div>
 </nav>
 
-<script src="/js/drop-downs-js/cart-dropdown.js"></script>
+<script src="/src/js/drop-downs-js/cart-dropdown.js"></script>

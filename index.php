@@ -5,21 +5,21 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Computer Nostalgia Navbar</title>
-  <link rel="stylesheet" href="/css/output.css" />
-  <link rel="stylesheet" href="/css/tailwind.css">
+  <link rel="stylesheet" href="./src/css/output.css" />
+  <!-- <link rel="stylesheet" href="/css/tailwind.css"> -->
 </head>
 
 <body
   class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-300">
   <!-- Navigation Bar -->
-  <?php include 'components/navbar.php'; ?>
+  <?php include './src/components/navbar.php'; ?>
 
   <!-- Hero Section -->
-  <section class="relative h-screen overflow-hidden bg-gray-50 dark:bg-gray-900">
+  <section class="relative h-[70vh] md:h-screen overflow-hidden bg-gray-50 dark:bg-gray-900">
 
     <!-- Background Image -->
     <div class="absolute inset-0 bg-cover bg-center bg-no-repeat"
-      style="background-image: url('/assets/homepagebg.jpg');">
+      style="background-image: url('./src/assets/homepagebg.jpg');">
       <!-- Dark Overlay for Better Readability -->
       <div class="absolute inset-0 bg-black/40 dark:bg-black/60"></div>
     </div>
@@ -139,7 +139,7 @@
               <h2 class="text-xl font-bold mb-3 dark:text-white"><?= $card['title'] ?></h2>
               <p class="text-gray-600 dark:text-gray-300 text-sm mb-4"><?= $card['description'] ?></p>
               <div class="flex justify-between items-center">
-                <a href="/pages/the-latest/the-latest.php">
+                <a href="./src/pages/the-latest/the-latest.php">
                   <!-- button -->
                   <button class="bg-primary-gradient text-white px-4 py-2 rounded-lg flex items-center gap-2 hover:shadow-lg transition-all duration-300 group">
                     <span>Learn More</span>
@@ -227,7 +227,7 @@
 
                     <!-- button -->
                     <div class="mt-6">
-                      <a href="/pages/brand-categories/brand-categories.php" class="group inline-flex items-center px-6 py-3 rounded-full bg-primary-gradient text-white font-medium transition-all duration-300 transform hover:-translate-y-1 shadow-md hover:shadow-lg">
+                      <a href="./src/pages/brand-categories/brand-categories.php" class="group inline-flex items-center px-6 py-3 rounded-full bg-primary-gradient text-white font-medium transition-all duration-300 transform hover:-translate-y-1 shadow-md hover:shadow-lg">
                         Explore all categories
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                           <path d="M5 12h14"></path>
@@ -439,9 +439,9 @@
   <!-- Our Services -->
   <?php
   $services = [
-    ["title" => "Web Development", "desc" => "Build modern, scalable websites and applications.", "img" => "../assets/homePageServicesImg.png"],
-    ["title" => "UI/UX Design", "desc" => "Craft stunning user experiences and intuitive interfaces.", "img" => "../assets/homePageServicesImg.png"],
-    ["title" => "SEO & Marketing", "desc" => "Optimize and boost your online presence with strategic marketing.", "img" => "../assets/homePageServicesImg.png"],
+    ["title" => "Web Development", "desc" => "Build modern, scalable websites and applications.", "img" => "./src/assets/homePageServicesImg.png"],
+    ["title" => "UI/UX Design", "desc" => "Craft stunning user experiences and intuitive interfaces.", "img" => "./src/assets/homePageServicesImg.png"],
+    ["title" => "SEO & Marketing", "desc" => "Optimize and boost your online presence with strategic marketing.", "img" => "./src/assets/homePageServicesImg.png"],
   ];
   ?>
 
@@ -558,7 +558,7 @@
           </p>
           <!-- button -->
           <div class="mt-6">
-            <a href="/pages/hot-topics/hot-topics.php" class="group inline-flex items-center px-6 py-3 rounded-full bg-primary-gradient text-white font-medium transition-all duration-300 transform hover:-translate-y-1 shadow-md hover:shadow-lg">
+            <a href="./src/pages/hot-topics/hot-topics.php" class="group inline-flex items-center px-6 py-3 rounded-full bg-primary-gradient text-white font-medium transition-all duration-300 transform hover:-translate-y-1 shadow-md hover:shadow-lg">
               Explore hot topics
               <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M5 12h14"></path>
@@ -582,7 +582,7 @@
                 aria-roledescription="slide"
                 aria-label="1 of 4">
                 <div class="relative aspect-[4/3] overflow-hidden">
-                  <img src="../assets/modernImage.png"
+                  <img src="./src/assets/modernImage.png"
                     alt="Interior design"
                     class="w-full h-full object-cover"
                     loading="lazy" />
@@ -606,7 +606,7 @@
                 aria-roledescription="slide"
                 aria-label="2 of 4">
                 <div class="relative aspect-[4/3] overflow-hidden">
-                  <img src="../assets/modernImage.png"
+                  <img src="./src/assets/modernImage.png"
                     alt="Modern interior"
                     class="w-full h-full object-cover"
                     loading="lazy" />
@@ -630,7 +630,7 @@
                 aria-roledescription="slide"
                 aria-label="3 of 4">
                 <div class="relative aspect-[4/3] overflow-hidden">
-                  <img src="../assets/modernImage.png"
+                  <img src="./src/assets/modernImage.png"
                     alt="Home decor"
                     class="w-full h-full object-cover"
                     loading="lazy" />
@@ -654,7 +654,7 @@
                 aria-roledescription="slide"
                 aria-label="4 of 4">
                 <div class="relative aspect-[4/3] overflow-hidden">
-                  <img src="../assets/modernImage.png"
+                  <img src="./src/assets/modernImage.png"
                     alt="Furniture design"
                     class="w-full h-full object-cover"
                     loading="lazy" />
@@ -717,17 +717,17 @@
     </div>
   </section>
 
-  <?php include 'components/footer.php'; ?>
+  <?php include './src/components/footer.php'; ?>
 
 
   <!-- <script src="../js/main.js"></script> -->
-  <script src="../js/theme.js"></script>
-  <script src="../js/navbar.js"></script>
-  <script src="../js/homePageCards.js"></script>
-  <script src="../js/homePageBrandCategoriesSection.js"></script>
-  <script src="../js/homePageOurServices.js"></script>
-  <script src="../js/homePageOurProducts.js"></script>
-  <script src="../js/homePageHotTopics.js"></script>
+  <script src="./src/js/theme.js"></script>
+  <script src="./src/js/navbar.js"></script>
+  <script src="./src/js/homePageCards.js"></script>
+  <script src="./src/js/homePageBrandCategoriesSection.js"></script>
+  <script src="./src/js/homePageOurServices.js"></script>
+  <script src="./src/js/homePageOurProducts.js"></script>
+  <script src="./src/js/homePageHotTopics.js"></script>
   <!-- Add AOS Animation Library -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />

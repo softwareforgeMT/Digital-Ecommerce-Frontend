@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detailed Latest</title>
-    <link rel="stylesheet" href="/css/output.css">
+    <link rel="stylesheet" href="../../css/output.css">
 
 </head>
 
@@ -14,7 +14,7 @@
     <?php include '../../components/navbar.php'; ?>
 
     <!-- Banner Section -->
-    <section class="relative h-80 w-full bg-cover bg-center" style="background-image: url('/assets/homepagebg.jpg');">
+    <section class="relative h-80 w-full bg-cover bg-center" style="background-image: url('../../assets/homepagebg.jpg');">
         <div class="absolute inset-0 bg-white dark:bg-black bg-opacity-50 dark:bg-opacity-50 flex flex-col justify-center items-center text-center">
             <h1 class="text-black dark:text-white text-3xl md:text-5xl font-bold tracking-wide">The Latest</h1>
             <!-- Breadcrumb -->
@@ -71,8 +71,8 @@
 
 
 
-    <script src="/js/theme.js"></script>
-    <script src="/js/navbar.js"></script>
+    <script src="../../js/theme.js"></script>
+    <script src="../../js/navbar.js"></script>
 
 </body>
 

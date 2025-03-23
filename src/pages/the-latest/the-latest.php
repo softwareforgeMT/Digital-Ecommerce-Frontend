@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Latest - Stay Updated</title>
-    <link rel="stylesheet" href="/css/output.css">
+    <link rel="stylesheet" href="../../css/output.css">
 </head>
 
 <body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-300">
@@ -14,13 +14,13 @@
     <?php include '../../components/navbar.php'; ?>
 
     <!-- Banner Section -->
-    <section class="relative h-80 w-full bg-cover bg-center" style="background-image: url('/assets/homepagebg.jpg');">
+    <section class="relative h-80 w-full bg-cover bg-center" style="background-image: url('../../assets/homepagebg.jpg');">
         <div class="absolute inset-0 bg-white dark:bg-black bg-opacity-50 dark:bg-opacity-50 flex flex-col justify-center items-center text-center">
             <h1 class="text-black dark:text-white text-3xl md:text-5xl font-bold tracking-wide">The Latest</h1>
             <!-- Breadcrumb -->
             <div class="container mx-auto px-4 md:px-8 py-4">
                 <nav class="text-sm text-gray-800 dark:text-gray-200">
-                    <a href="/index.php" class="hover:text-purple-600 font-bold">Home</a>
+                    <a href="/" class="hover:text-purple-600 font-bold">Home</a>
                     <span class="mx-2">/</span>
                     <span class="text-gray-800 dark:text-gray-200 font-semibold">The Latest</span>
                 </nav>
@@ -54,7 +54,7 @@
                 <!-- First Product Card -->
                 <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 group">
                     <div class="relative overflow-hidden">
-                        <img src="/assets/PCS.png" alt="Gaming PC Cases"
+                        <img src="../../assets/PCS.png" alt="Gaming PC Cases"
                             class="w-full h-64 object-cover object-center transition-transform duration-700 group-hover:scale-110">
                         <!-- Overlay on Hover -->
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
@@ -92,7 +92,7 @@
 
                         <!-- button -->
                         <div class="mt-6">
-                            <a href="/pages/the-latest/detailed-the-latest.php" class="group inline-flex items-center px-8 py-4 rounded-xl bg-primary-gradient text-white font-medium transition-all duration-300 transform hover:-translate-y-1 shadow-md hover:shadow-lg">
+                            <a href="./detailed-the-latest.php" class="group inline-flex items-center px-8 py-4 rounded-xl bg-primary-gradient text-white font-medium transition-all duration-300 transform hover:-translate-y-1 shadow-md hover:shadow-lg">
                                 Read more
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <path d="M5 12h14"></path>
@@ -106,7 +106,7 @@
                 <!-- Second Product Card -->
                 <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 group">
                     <div class="relative overflow-hidden">
-                        <img src="/assets/console.png" alt="Gaming PC Cases"
+                        <img src="../../assets/console.png" alt="Gaming PC Cases"
                             class="w-full h-64 object-cover object-center transition-transform duration-700 group-hover:scale-110">
                         <!-- Overlay on Hover -->
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
@@ -144,7 +144,7 @@
 
                         <!-- button -->
                         <div class="mt-6">
-                            <a href="/pages/the-latest/detailed-the-latest.php" class="group inline-flex items-center px-8 py-4 rounded-xl bg-primary-gradient text-white font-medium transition-all duration-300 transform hover:-translate-y-1 shadow-md hover:shadow-lg">
+                            <a href="./detailed-the-latest.php" class="group inline-flex items-center px-8 py-4 rounded-xl bg-primary-gradient text-white font-medium transition-all duration-300 transform hover:-translate-y-1 shadow-md hover:shadow-lg">
                                 Read more
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <path d="M5 12h14"></path>
@@ -158,7 +158,7 @@
                 <!-- Third Product Card -->
                 <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 group">
                     <div class="relative overflow-hidden">
-                        <img src="/assets/theLatestConsole.png" alt="Gaming PC Cases"
+                        <img src="../../assets/theLatestConsole.png" alt="Gaming PC Cases"
                             class="w-full h-64 object-cover object-center transition-transform duration-700 group-hover:scale-110">
                         <!-- Overlay on Hover -->
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
@@ -196,7 +196,7 @@
 
                         <!-- button -->
                         <div class="mt-6">
-                            <a href="/pages/the-latest/detailed-the-latest.php" class="group inline-flex items-center px-8 py-4 rounded-xl bg-primary-gradient text-white font-medium transition-all duration-300 transform hover:-translate-y-1 shadow-md hover:shadow-lg">
+                            <a href="./detailed-the-latest.php" class="group inline-flex items-center px-8 py-4 rounded-xl bg-primary-gradient text-white font-medium transition-all duration-300 transform hover:-translate-y-1 shadow-md hover:shadow-lg">
                                 Read more
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <path d="M5 12h14"></path>
@@ -344,8 +344,8 @@
     <!-- Include Footer -->
     <?php include '../../components/footer.php'; ?>
 
-    <script src="/js/theme.js"></script>
-    <script src="/js/navbar.js"></script>
+    <script src="../../js/theme.js"></script>
+    <script src="../../js/navbar.js"></script>
 </body>
 
 </html>

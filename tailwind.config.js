@@ -5,6 +5,7 @@
     "./src/**/*.js",
     "./src/**/*.php",
     "./src/**/**/*.php",
+    "./**/**/*.php",
   ],
   theme: {
     extend: {

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hot Topics</title>
-    <link rel="stylesheet" href="/css/output.css">
+    <link rel="stylesheet" href="../../css/output.css">
 </head>
 
 <body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-300">
@@ -91,23 +91,23 @@
                         <?php
                         $cards = [
                             [
-                                'img' => '/assets/brandImage.png',
+                                'img' => '../../assets/brandImage.png',
                                 'title' => 'Subcategory',
                             ],
                             [
-                                'img' => '/assets/brandImage.png',
+                                'img' => '../../assets/brandImage.png',
                                 'title' => 'Subcategory',
                             ],
                             [
-                                'img' => '/assets/brandImage.png',
+                                'img' => '../../assets/brandImage.png',
                                 'title' => 'Subcategory',
                             ],
                             [
-                                'img' => '/assets/brandImage.png',
+                                'img' => '../../assets/brandImage.png',
                                 'title' => 'Subcategory',
                             ],
                             [
-                                'img' => '/assets/brandImage.png',
+                                'img' => '../../assets/brandImage.png',
                                 'title' => 'Subcategory',
                             ],
 
@@ -123,7 +123,7 @@
                                 <div class="p-5">
 
                                     <h3 class="text-center text-gray-900 dark:text-gray-100 font-medium text-lg mb-2 line-clamp-2 hover:text-blue-600 dark:hover:text-blue-400 transition duration-200">
-                                        <a href="/pages/store/detailed-store.php"><?php echo $card['title']; ?></a>
+                                        <a href="./detailed-store.php"><?php echo $card['title']; ?></a>
                                     </h3>
 
                                 </div>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reset-password</title>
-    <link rel="stylesheet" href="/css/output.css">
+    <link rel="stylesheet" href="../../../css/output.css">
 </head>
 <body class="bg-white font-sans">
     <div class="flex min-h-screen">
@@ -13,7 +13,7 @@
             <!-- Logo and text -->
             <div class="text-center mb-8">
                 <div class="flex justify-center mb-4">
-                    <img src="/assets/logo.png" alt="Computer Heaven Logo" class="w-16 h-16">
+                    <img src="../../../assets/logo.png" alt="Computer Heaven Logo" class="w-16 h-16">
                 </div>
                 <p class="text-gray-600 max-w-md mx-auto">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit suspendisse.
@@ -21,7 +21,7 @@
             </div>
 
             <!-- Phone mockup -->
-            <img src="/assets/authImg.png" alt="">
+            <img src="../../../assets/authImg.png" alt="">
         </div>
 
         <div class="w-[2px] h-auto md:h-screen bg-gray-300"></div>
@@ -89,12 +89,12 @@
 
                     <!-- Forgot Password -->
                     <div class="text-center underline text-gray-500 mb-4">
-                        <a href="/pages/auth/reset-password/reset-password.php" class="hover:text-purple-500">Forgot password?</a>
+                        <a href="../reset-password/reset-password.php" class="hover:text-purple-500">Forgot password?</a>
                     </div>
 
                     <!-- Sign Up Link -->
                     <div class="text-center text-gray-500">
-                        Don't have any account? <a href="/pages/auth/sign-up/sign-up.php" class="text-blue-600 font-medium">Sign Up</a>
+                        Don't have any account? <a href="../sign-up/sign-up.php" class="text-blue-600 font-medium">Sign Up</a>
                     </div>
                 </form>
             </div>
